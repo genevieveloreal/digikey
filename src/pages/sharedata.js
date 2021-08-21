@@ -17,8 +17,25 @@ import transfer from "../images/transfer.png";
 import transferData from "../images/key-dots.gif";
 import userImage from "../images/user.png";
 import locationImage from "../images/location.png";
+import { Icon, TextField, Tooltip } from "@material-ui/core";
+import { HelpOutline } from "@material-ui/icons";
+import { makeStyles } from "@material-ui/core/styles";
+import { pgpKey } from "../util/pgpKey";
+const useStyles = makeStyles((theme) => ({
+  keyBlock: {
+    width: '100%',
+    fontSize: '8px',
+
+    '& .MuiInputBase-input': {
+      fontSize: '10px'
+    }
+  }
+
+}));
 
 function ShareDataPage(props) {
+const classes = useStyles();
+
   let items = [
     { id: 1, title: "Name", info: "test", featured: false },
     { id: 2, title: "Address", info: "test", featured: false },
@@ -86,6 +103,12 @@ function ShareDataPage(props) {
         {checkInMessage && (
           <Alert severity="success">{checkInMessage} <a href="/dashboard">Click here</a> to go back to your DigiKey dashboard.</Alert>
         )}
+        <Box mt={2}>
+          <TextField label="Your Public Key 🔐" className={classes.keyBlock} multiline rows={4} defaultValue={pgpKey} disabled={true} /><br/>
+          <Tooltip title="Your Public Key is your key to privacy. Your personal information is automatically encrypted with this key during check-in. Only you and the authorised party are able to access the information submitted.">
+            <Box><Typography variant="caption" component="a"> What is this?</Typography></Box>
+          </Tooltip>
+        </Box>
       </Container>
     </Section>
   );

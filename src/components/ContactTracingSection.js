@@ -27,7 +27,7 @@ import {
   TableCell,
   TableContainer,
   TableHead, TablePagination,
-  TableRow
+  TableRow, TextField
 } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -40,6 +40,12 @@ const useStyles = makeStyles((theme) => ({
   container: {
     maxHeight: 880,
   },
+  suburbSearch: {
+    marginLeft: "8px"
+  },
+  stateSelect: {
+    marginTop: 16
+  }
 
 }));
 
@@ -64,12 +70,13 @@ function ContactTracingSection(props) {
 
   const handleLocationStateChange = (event) => {
     const newLocationState = event.target.value;
+    setSuburbName('');
     setLocationState(states[newLocationState]);
   };
 
   const [page, setPage] = useState(0);
   const [rowsPerPage, setRowsPerPage] = useState(20);
-  const [suburbName, setSuburbName] = useState("");
+  const [suburbName, setSuburbName] = useState("Melbourne");
   const [rowData, setRowData] = useState([]);
 
   const handleChangePage = (event, newPage) => {
@@ -102,13 +109,14 @@ function ContactTracingSection(props) {
 
 
   useEffect(() => {
-    fetch(`https://bigsunday.com.au/api/tracing/${locationState.toLowerCase()}/mel`)
+    const query = suburbName ? suburbName.toLowerCase() : ''; // work around for endpoint being crap.
+    fetch(`http://localhost/api/tracing/${locationState.toLowerCase()}/${query}`)
       .then((res) => res.json())
       .then((data) => {
         const fetchedRowData = data.map((row) => createTableDate(row));
         setRowData(fetchedRowData);
       })
-  }, [locationState])
+  }, [suburbName, locationState])
 
   return (
     <Section
@@ -136,7 +144,7 @@ function ContactTracingSection(props) {
                   </Typography>
                   <Typography component="div">
                     <div>
-                      <Select labelId="label" id="select" onChange={handleLocationStateChange} value={locationState}>
+                      <Select label={"State"} labelId="label" id="select" onChange={handleLocationStateChange} value={locationState} className={classes.stateSelect}>
                         <MenuItem value="VIC">VIC</MenuItem>
                         <MenuItem value="QLD">QLD</MenuItem>
                         <MenuItem value="ACT" disabled={true}>ACT</MenuItem>
@@ -146,6 +154,9 @@ function ContactTracingSection(props) {
                         <MenuItem value="TAS" disabled={true}>TAS</MenuItem>
                         <MenuItem value="WA" disabled={true}>WA</MenuItem>
                       </Select>
+                        <TextField label={"Suburb"} value={suburbName} ml={2} onChange={(e) => setSuburbName(e.target.value)} className={classes.suburbSearch}></TextField>
+
+
                     </div>
                     <br/>
                   </Typography>
