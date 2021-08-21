@@ -10,6 +10,9 @@ const mapQldTestingSites = require('./api/helpers/mapQldTestingSites')
 const mapVicTestingSites = require('./api/helpers/mapVicTestingSites')
 const mapVicContactTracing = require('./api/helpers/mapVicContactTracing')
 const cors = require('cors');
+var parse = require('date-fns/parse')
+const {getUnixTime} = require("date-fns");
+
 
 const PORT = process.env.SERVICE_PORT || 80;
 
@@ -33,27 +36,59 @@ app.get('/api/restrictions/:state?', express.json(), (req, res) => {
 })
 
 app.get('/api/tracing/qld/:suburb?', express.json(), (req, res) => {
+  const dateFormatStr = 'd LLLL yyyy';
+  const qldSortFunction = function(a, b) {
+    if (getUnixTime(parse(a['Date'], dateFormatStr, new Date())) > getUnixTime(parse(b['Date'], dateFormatStr, new Date()))) {
+      return -1;
+
+    }
+    if (getUnixTime(parse(a['Date'], dateFormatStr, new Date())) < getUnixTime(parse(b['Date'], dateFormatStr, new Date()))) {
+      return 1;
+    }
+    return 0;
+  }
+
   if (req.params.suburb) {
-    console.log(req.params.suburb)
     const results = qldContactTracking.filter((item) => {
       return item['Suburb'].toLowerCase().indexOf(req.params.suburb.toLowerCase()) > -1
     })
+
+    results.sort(qldSortFunction)
     res.send(results)
   }
   else {
-    return qldContactTracking
+    qldContactTracking.sort(qldSortFunction)
+    return res.send(qldContactTracking);
   }
 })
 
 app.get('/api/tracing/vic/:suburb?', express.json(), (req, res) => {
+  const dateFormatStr = 'dd/MM/yyyy';
+
+  const vicSortFunction = function(a, b) {
+    if (getUnixTime(parse(a['Date'], dateFormatStr, new Date())) > getUnixTime(parse(b['Date'], dateFormatStr, new Date()))) {
+
+      return -1;
+
+    }
+    if (getUnixTime(parse(a['Date'], dateFormatStr, new Date())) < getUnixTime(parse(b['Date'], dateFormatStr, new Date()))) {
+      return 1;
+    }
+    return 0;
+  }
+
   if (req.params.suburb) {
     const results = vicContactTracing.filter((item) => {
       return item['Suburb'].toLowerCase().indexOf(req.params.suburb.toLowerCase()) > -1
     })
-    res.send(results.map((site) => { return mapVicContactTracing(site)}))
+    const mapped = results.map((site) => { return mapVicContactTracing(site)});
+    const sorted = mapped.sort(vicSortFunction);
+    res.send(sorted);
   }
   else {
-    return vicContactTracing.map((site) => { return mapVicContactTracing(site)})
+    const mapped = vicContactTracing.map((site) => { return mapVicContactTracing(site)});
+    const sorted = mapped.sort(vicSortFunction);
+    res.send(sorted);
   }
 })
 
