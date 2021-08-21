@@ -6,6 +6,10 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
+import featureImageOne from "../images/asset-1.png";
+import featureImageTwo from "../images/asset-2.png";
+import featureImageThree from "../images/asset-3.png";
+import featureImageFour from "../images/asset-4.png";
 
 const useStyles = makeStyles((theme) => ({
   itemsContainer: {
@@ -40,25 +44,25 @@ function FeaturesSection(props) {
       title: "Store and share your data securely",
       description:
         "Store your data in one place. Have peace of mind knowing your data is encrypted and that you can customise data you share, so you only share what you need to.",
-      image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg",
+      image: featureImageOne
     },
     {
       title: "Stay up to date with public health information",
       description:
         "Checking Government websites is time consuming, especially if you need to travel between states. See all relevant information at once, including COVID-19 warnings and any restrictions, in your DigiKey dashboard.",
-      image: "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg",
+      image: featureImageTwo
     },
     {
       title: "Receive notifications",
       description:
         "Don't spend every morning checking contact tracing lists. We'll let you know if you've been in an area concern, and if you need to get tested.",
-      image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg",
+      image: featureImageThree
     },
     {
       title: "Live your life, yo!",
       description:
         "You can relax knowing you have complete control over your data, and easy access to the information you need. Simply keep your details updated and we'll take care of the rest.",
-      image: "https://uploads.divjoy.com/undraw-balloons_vxx5.svg",
+      image: featureImageFour
     },
   ];
 
