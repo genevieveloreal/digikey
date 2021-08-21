@@ -6,6 +6,7 @@ import FaqPage from "./faq";
 import CheckInPage from "./checkin";
 import ContactPage from "./contact";
 import DashboardPage from "./dashboard";
+import ShareDataPage from "./sharedata";
 import SettingsPage from "./settings";
 import AuthPage from "./auth";
 import { Switch, Route, Router } from "./../util/router.js";
@@ -39,6 +40,8 @@ function App(props) {
             <Route exact path="/dashboard" component={DashboardPage} />
 
             <Route exact path="/checkin" component={CheckInPage} />
+
+            <Route exact path="/share" component={ShareDataPage} />
 
             <Route exact path="/settings/:section" component={SettingsPage} />
 

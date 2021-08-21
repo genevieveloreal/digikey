@@ -82,14 +82,6 @@ function DashboardItems(props) {
           padding={2}
         >
           <Typography variant="h5">Your DigiKey Data</Typography>
-          <Button
-            variant="contained"
-            size="medium"
-            color="primary"
-            onClick={() => setCreatingItem(true)}
-          >
-            +
-          </Button>
         </Box>
         <Divider />
         {dataItems && dataItems.length > 0 && (
@@ -120,6 +112,23 @@ function DashboardItems(props) {
                 <Divider />
               </ListItem>
             ))}
+            <Divider />
+            <Box
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+              padding={2}
+            >
+              <ListItemText>Add new</ListItemText>
+              <Button
+                variant="contained"
+                size="medium"
+                color="primary"
+                onClick={() => setCreatingItem(true)}
+              >
+              +
+              </Button>
+          </Box>
           </List>
         )}
       </Paper>

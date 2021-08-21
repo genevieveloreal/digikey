@@ -26,6 +26,9 @@ const themeConfig = {
       secondary: {
         main: colors.pink["500"],
       },
+      tertiary: {
+        main: "#4472CA"
+      },
       background: {
         // Background for <body>
         // and <Section color="default">
