@@ -61,7 +61,7 @@ function DashboardItems(props) {
   const createItem = (data) => {
     const newItems = dataItems;
     newItems.push(data);
-    setDataItems(newItems);
+    setDataItems([...newItems]);
     setCreatingItem(false);
   };
 

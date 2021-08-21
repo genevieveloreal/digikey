@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Alert from "@material-ui/lab/Alert";
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
@@ -28,7 +28,8 @@ function ShareDataPage(props) {
   const [checkInMessage, setCheckInMessage] = useState(null);
 
   const toggleDataInclusion = (id) => {
-    // here
+   dataItems[id].featured = !dataItems[id].featured;
+   setDataItems([...dataItems]);
   };
 
   const displayCheckInMessage = () => {
@@ -60,7 +61,7 @@ function ShareDataPage(props) {
                   <VpnKeyIcon />
                 </ListItemIcon>
                 <ListItemText>{item.title}</ListItemText>
-                <Switch checked={item.featured} onChange={() => toggleDataInclusion(item.id)}/>
+                <Switch checked={item.featured} onChange={() => toggleDataInclusion(index)}/>
               </ListItem>
             ))}
           </List>
