@@ -7,8 +7,13 @@ const qldTestingSites = require('./api/data/qld-testing-locations.json')
 const vicTestingSites = require('./api/data/vic-testing-locations.json')
 const mapQldTestingSites = require('./api/helpers/mapQldTestingSites')
 const mapVicTestingSites = require('./api/helpers/mapVicTestingSites')
+const cors = require('cors');
 
 const app = express();
+
+app.use(cors({
+  origin: '*'
+}));
 
 app.get('/api', (req, res) => {
   res.send('hello chicken');
@@ -59,4 +64,4 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, './build', 'index.html'));
 });
 
-app.listen(80);
+app.listen(443);
