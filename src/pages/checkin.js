@@ -39,7 +39,7 @@ class CheckInPage extends Component {
                 variant="contained"
                 size="large"
                 color="#0A369D"
-                to="/share"
+                href="/share"
               >
               Continue
               </Button>

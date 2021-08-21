@@ -16,6 +16,10 @@ import MyLocationIcon from "@material-ui/icons/MyLocation";
 import LinkMui from "@material-ui/core/Link";
 import { Link, useRouter } from "./../util/router.js";
 import { makeStyles } from "@material-ui/core/styles";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemText from "@material-ui/core/ListItemText";
 
 const useStyles = makeStyles((theme) => ({
   cardContent: {
@@ -42,15 +46,25 @@ function DashboardSection(props) {
   };
 
   const restrictions = {
-    ACT: { },
-    NSW: { },
-    NT: { },
-    QLD: { },
-    SA: { },
-    TAS: { },
-    VIC: { },
-    WA: { }
-  }
+    curfew: false,
+    funeralRestrictions: false,
+    masks: true,
+    schoolRestrictions: false,
+    socialDistancing: true,
+    weddingRestrictions: false
+  };
+
+  const infoLinks = {
+    ACT: "https://www.covid19.act.gov.au/",
+    NSW: "https://www.nsw.gov.au/covid-19/rules",
+    NT: "https://coronavirus.nt.gov.au/stay-safe/covid-19-lockdown-restrictions-in-place",
+    QLD: "https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19",
+    SA: "https://www.covid-19.sa.gov.au/health-advice",
+    TAS: "https://www.coronavirus.tas.gov.au/",
+    VIC: "https://www.dhhs.vic.gov.au/victorias-restriction-levels-covid-19",
+    WA: "https://www.wa.gov.au/government/covid-19-coronavirus"
+  };
+
   const [locationState, setLocationState] = useState(states.NSW);
 
   const handleLocationStateChange = (event) => {
@@ -89,7 +103,8 @@ function DashboardSection(props) {
                 </Box>
                 <Box mt={3}>
                   <Typography variant="h6" paragraph={true}>
-                    <strong><MyLocationIcon /> Current Location</strong>
+                    <strong><MyLocationIcon /> Location</strong>
+                    <Typography paragraph={true}>Your location is {locationState}. Planning travel? Change your state to view the current restrictions and more information.</Typography>
                   </Typography>
                   <Typography component="div">
                     <div>
@@ -107,6 +122,19 @@ function DashboardSection(props) {
                     <br/>
                   </Typography>
                 </Box>
+                <Box>
+                  <List variant="flush">
+                    <ListItem>{restrictions.masks ? "✔️" : "❌"} Masks</ListItem>
+                    <ListItem>{restrictions.socialDistancing ? "✔️" : "❌"} Social distancing</ListItem>
+                    <ListItem>{restrictions.curfews ? "✔️" : "❌"} Curfew observed</ListItem>
+                    <ListItem>{restrictions.funeralRestrictions ? "✔️" : "❌"} Funeral restrictions</ListItem>
+                    <ListItem>{restrictions.weddingRestrictions ? "✔️" : "❌"} Wedding restrictions</ListItem>
+                    <ListItem>{restrictions.schoolRestrictions ? "✔️" : "❌"} School restrictions</ListItem>
+                    <Box mt={2}>
+                      <Button color="secondary" variant="contained" href={infoLinks[locationState]} target="_blank">Read more</Button>
+                    </Box>
+                  </List>
+                </Box>
               </CardContent>
             </Card>
             <br />
@@ -116,7 +144,9 @@ function DashboardSection(props) {
                   <strong>Check-in</strong>
                 </Typography>
                 <Typography paragraph={true}>Check-in now by clicking the button below. You'll be able to select which data keys you share.</Typography>
-                <Button button color="primary" variant="contained" size="large" href="/checkin">Check-in Now</Button>
+                <Box mt={2}>
+                  <Button button color="primary" variant="contained" size="large" href="/checkin">Check-in Now</Button>
+                </Box>
               </CardContent>
             </Card>
             <br/>
