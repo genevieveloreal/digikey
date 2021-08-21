@@ -9,6 +9,9 @@ import Box from "@material-ui/core/Box";
 import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
+import aaron from "../images/aaron.png";
+import genevieve from "../images/gen.png";
+import ivan from "../images/ivan.png";
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -31,22 +34,22 @@ function TeamBiosSection(props) {
 
   const items = [
     {
-      avatar: "https://uploads.divjoy.com/pravatar-150x-68.jpeg",
-      name: "John Smith",
-      role: "Software Engineer",
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo.",
+      avatar: aaron,
+      name: "Aaron Charlton",
+      role: "Tech Team Lead & Project Manager",
+      bio: "Subsists on a diet of old shredded programming books and energy drinks. Dreams in API responses.",
     },
     {
-      avatar: "https://uploads.divjoy.com/pravatar-150x-35.jpeg",
-      name: "Lisa Zinn",
-      role: "Software Engineer",
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!",
+      avatar: ivan,
+      name: "Ivan von Chris",
+      role: "Graphics & Video Designer",
+      bio: "In a long, steady and loving relationship with Adobe After Effects. Big shramp daddy and shramp enrichment enthusiast.",
     },
     {
-      avatar: "https://uploads.divjoy.com/pravatar-150x-16.jpeg",
-      name: "Diana Low",
-      role: "Designer",
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!",
+      avatar: genevieve,
+      name: "Genevieve Carter",
+      role: "Web Developer",
+      bio: "Regularly putting her GitHub history on the line for the love of hacks. Connoisseur of garden gnomes and sweet zzz's.",
     },
   ];
 
