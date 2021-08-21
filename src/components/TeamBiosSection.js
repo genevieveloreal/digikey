@@ -41,8 +41,8 @@ function TeamBiosSection(props) {
     },
     {
       avatar: ivan,
-      name: "Ivan von Chris",
-      role: "Graphics & Video Designer",
+      name: "Ivan von Christ",
+      role: "Illustrator & Video Designer",
       bio: "In a long, steady and loving relationship with Adobe After Effects. Big shramp daddy and shramp enrichment enthusiast.",
     },
     {
