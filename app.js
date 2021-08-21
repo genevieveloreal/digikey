@@ -2,12 +2,16 @@ const express = require('express');
 const path = require('path');
 const restrictions = require("./api/data/restrictions");
 const qldContactTracking = require('./api/data/qld-contact-tracing-sites.json')
+const vicContactTracing = require('./api/data/vic-contact-tracing-sites.json')
 const qldwastewater = require('./api/data/qld-positive-testing-sites.json')
 const qldTestingSites = require('./api/data/qld-testing-locations.json')
 const vicTestingSites = require('./api/data/vic-testing-locations.json')
 const mapQldTestingSites = require('./api/helpers/mapQldTestingSites')
 const mapVicTestingSites = require('./api/helpers/mapVicTestingSites')
+const mapVicContactTracing = require('./api/helpers/mapVicContactTracing')
 const cors = require('cors');
+
+const PORT = process.env.SERVICE_PORT || 80;
 
 const app = express();
 
@@ -41,6 +45,18 @@ app.get('/api/tracing/qld/:suburb?', express.json(), (req, res) => {
   }
 })
 
+app.get('/api/tracing/vic/:suburb?', express.json(), (req, res) => {
+  if (req.params.suburb) {
+    const results = vicContactTracing.filter((item) => {
+      return item['Suburb'].toLowerCase().indexOf(req.params.suburb.toLowerCase()) > -1
+    })
+    res.send(results.map((site) => { return mapVicContactTracing(site)}))
+  }
+  else {
+    return vicContactTracing.map((site) => { return mapVicContactTracing(site)})
+  }
+})
+
 app.get('/api/wastewater/qld', express.json(), (req, res) => {
   res.send(qldwastewater)
 })
@@ -64,4 +80,4 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, './build', 'index.html'));
 });
 
-app.listen(443);
+app.listen(PORT);
