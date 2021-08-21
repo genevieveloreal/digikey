@@ -42,8 +42,8 @@ function IndexPage(props) {
         size="medium"
         bgImage=""
         bgImageOpacity={1}
-        title="Stay in the know"
-        subtitle="Don't want to try DigiKey just yet? Sign up and we'll keep you updated about new features."
+        title="No smartphone? No worries!"
+        subtitle="Did you know you can request a physical DigiKey card? Visit your nearest Australia Post with your ID and ask for a DigiKey Card form."
         buttonText="Subscribe"
         buttonColor="primary"
         inputPlaceholder="Enter your email"

@@ -5,6 +5,7 @@ import AuthForm from "./AuthForm";
 import AuthSocial from "./AuthSocial";
 import AuthFooter from "./AuthFooter";
 import { useRouter } from "./../util/router.js";
+import reachout from "../images/reachout.png";
 
 function Auth(props) {
   const router = useRouter();
@@ -32,7 +33,6 @@ function Auth(props) {
         onAuth={handleAuth}
         onFormAlert={handleFormAlert}
       />
-
       {["signup", "signin"].includes(props.type) && (
         <>
           {props.providers && props.providers.length > 0 && (
@@ -46,6 +46,9 @@ function Auth(props) {
           <AuthFooter type={props.type} typeValues={props.typeValues} />
         </>
       )}
+      <Box alignItems="center" display="flex" justifyContent="center" mt={2}>
+        <img src={reachout} width="300px" />
+      </Box>
     </>
   );
 }

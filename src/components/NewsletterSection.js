@@ -4,6 +4,7 @@ import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import SectionHeader from "./SectionHeader";
 import Newsletter from "./Newsletter";
+import digiKeyCard from "../images/digikeycard.png";
 
 function NewsletterSection(props) {
   return (
@@ -23,12 +24,7 @@ function NewsletterSection(props) {
             />
           </Grid>
           <Grid item={true} xs={12} md={6}>
-            <Newsletter
-              buttonText={props.buttonText}
-              buttonColor={props.buttonColor}
-              inputPlaceholder={props.inputPlaceholder}
-              subscribedMessage={props.subscribedMessage}
-            />
+            <img src={digiKeyCard} width="320px" />
           </Grid>
         </Grid>
       </Container>

@@ -33,6 +33,7 @@ function DashboardSection(props) {
 
   const [locationFetchingStatus, setLocationFetchingStatus] = useState(false)
   const [testingSites, setTestingSites] = useState(undefined);
+  const [currentRestrictions, setCurrentRestrictions] = useState(undefined);
 
   const states = {
     ACT: "ACT",
@@ -43,15 +44,6 @@ function DashboardSection(props) {
     TAS: "TAS",
     VIC: "VIC",
     WA: "WA"
-  };
-
-  const restrictions = {
-    curfew: false,
-    funeralRestrictions: false,
-    masks: true,
-    schoolRestrictions: false,
-    socialDistancing: true,
-    weddingRestrictions: false
   };
 
   const infoLinks = {
@@ -71,6 +63,25 @@ function DashboardSection(props) {
     const newLocationState = event.target.value;
     setLocationState(states[newLocationState]);
   };
+
+  let fetchedRestrictions = undefined;
+
+  useEffect(()=> {
+    fetchedRestrictions = fetch(`https://www.bigsunday.com.au/api/restrictions/${locationState.toLowerCase()}`)
+      .then((res) => res.json())
+      .then((res) => { setCurrentRestrictions(res); } )
+  }, [locationState])
+
+  const stayAtHomeRestriction = currentRestrictions && currentRestrictions.stayAtHome;
+  const masksIndoorsRestriction = currentRestrictions && currentRestrictions.masks.indoors;
+  const masksOutdoorsRestriction = currentRestrictions && currentRestrictions.masks.outdoors;
+  const masksExerciseRestriction = currentRestrictions && currentRestrictions.masks.exercising;
+  const curfewRestrictionStartTime = currentRestrictions && currentRestrictions.curfew.startTime || null;
+  const curfewRestrictionEndTime = currentRestrictions && currentRestrictions.curfew.endTime || null;
+  const curfewDetails = curfewRestrictionStartTime && curfewRestrictionEndTime && `- ${curfewRestrictionStartTime} to ${curfewRestrictionEndTime}`;
+  const socialDistancingRestriction = currentRestrictions && currentRestrictions.socialDistancing.observed;
+  const travelRestrictions = currentRestrictions && currentRestrictions.travel;
+  const maxTravelDistance = travelRestrictions && `- ${travelRestrictions.maxDistance}`;
 
   return (
     <Section
@@ -100,6 +111,9 @@ function DashboardSection(props) {
                   <Typography paragraph={true}>
                     Your DigiKey account gives you control over your data, including what you share and who you share it with.
                   </Typography>
+                  <Box mt={2}>
+                    <Button button color="primary" variant="contained" size="large" href="/checkin">Check-in Now</Button>
+                  </Box>
                 </Box>
                 <Box mt={3}>
                   <Typography variant="h6" paragraph={true}>
@@ -124,12 +138,13 @@ function DashboardSection(props) {
                 </Box>
                 <Box>
                   <List variant="flush">
-                    <ListItem>{restrictions.masks ? "✔️" : "❌"} Masks</ListItem>
-                    <ListItem>{restrictions.socialDistancing ? "✔️" : "❌"} Social distancing</ListItem>
-                    <ListItem>{restrictions.curfews ? "✔️" : "❌"} Curfew observed</ListItem>
-                    <ListItem>{restrictions.funeralRestrictions ? "✔️" : "❌"} Funeral restrictions</ListItem>
-                    <ListItem>{restrictions.weddingRestrictions ? "✔️" : "❌"} Wedding restrictions</ListItem>
-                    <ListItem>{restrictions.schoolRestrictions ? "✔️" : "❌"} School restrictions</ListItem>
+                    {socialDistancingRestriction && (<ListItem>⚠️ Social distancing</ListItem>)}
+                    {stayAtHomeRestriction && (<ListItem>⚠️ Stay at home</ListItem>)}
+                    {masksIndoorsRestriction && (<ListItem>⚠️ Masks indoors</ListItem>)}
+                    {masksIndoorsRestriction && (<ListItem>⚠️ Masks outdoors</ListItem>)}
+                    {masksExerciseRestriction && (<ListItem>⚠️ Masks while exercising</ListItem>)}
+                    {curfewRestrictionStartTime && curfewRestrictionEndTime && (<ListItem>⚠️ Curfew {curfewDetails}</ListItem>)}
+                    {travelRestrictions && travelRestrictions.maxDistance && (<ListItem>⚠️ Travel restriction {maxTravelDistance}</ListItem>)}
                     <Box mt={2}>
                       <Button color="secondary" variant="contained" href={infoLinks[locationState]} target="_blank">Read more</Button>
                     </Box>
@@ -138,18 +153,6 @@ function DashboardSection(props) {
               </CardContent>
             </Card>
             <br />
-            <Card>
-              <CardContent className={classes.cardContent}>
-                <Typography variant="h6" paragraph={true}>
-                  <strong>Check-in</strong>
-                </Typography>
-                <Typography paragraph={true}>Check-in now by clicking the button below. You'll be able to select which data keys you share.</Typography>
-                <Box mt={2}>
-                  <Button button color="primary" variant="contained" size="large" href="/checkin">Check-in Now</Button>
-                </Box>
-              </CardContent>
-            </Card>
-            <br/>
             {testingSites && <Card>
               <CardContent className={classes.cardContent}>
                 <Typography variant="h6" paragraph={true}>
