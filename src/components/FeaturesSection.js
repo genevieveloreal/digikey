@@ -37,27 +37,27 @@ function FeaturesSection(props) {
 
   const items = [
     {
-      title: "Explore",
+      title: "Store and share your data securely",
       description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+        "Store your data in one place. Have peace of mind knowing your data is encrypted and that you can customise data you share, so you only share what you need to.",
       image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg",
     },
     {
-      title: "Explore",
+      title: "Stay up to date with public health information",
       description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+        "Checking Government websites is time consuming, especially if you need to travel between states. See all relevant information at once, including COVID-19 warnings and any restrictions, in your DigiKey dashboard.",
       image: "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg",
     },
     {
-      title: "Explore",
+      title: "Receive notifications",
       description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+        "Don't spend every morning checking contact tracing lists. We'll let you know if you've been in an area concern, and if you need to get tested.",
       image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg",
     },
     {
-      title: "Explore",
+      title: "Live your life, yo!",
       description:
-        "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+        "You can relax knowing you have complete control over your data, and easy access to the information you need. Simply keep your details updated and we'll take care of the rest.",
       image: "https://uploads.divjoy.com/undraw-balloons_vxx5.svg",
     },
   ];

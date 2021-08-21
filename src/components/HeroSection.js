@@ -7,6 +7,7 @@ import SectionHeader from "./SectionHeader";
 import Button from "@material-ui/core/Button";
 import { Link } from "./../util/router.js";
 import { makeStyles } from "@material-ui/core/styles";
+import LockIcon from "@material-ui/icons/Lock";
 
 const useStyles = makeStyles((theme) => ({
   // Increase <Container> padding so it's
@@ -52,7 +53,7 @@ function HeroSection(props) {
                 component={Link}
                 to={props.buttonPath}
               >
-                {props.buttonText}
+                <LockIcon />{props.buttonText}
               </Button>
             </Box>
           </Grid>

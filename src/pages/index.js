@@ -4,6 +4,7 @@ import ClientsSection from "./../components/ClientsSection";
 import FeaturesSection from "./../components/FeaturesSection";
 import TestimonialsSection from "./../components/TestimonialsSection";
 import NewsletterSection from "./../components/NewsletterSection";
+import hero from "../images/hero.png";
 
 function IndexPage(props) {
   return (
@@ -13,12 +14,12 @@ function IndexPage(props) {
         size="medium"
         bgImage=""
         bgImageOpacity={1}
-        title="Your landing page title here"
-        subtitle="This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan."
-        image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
-        buttonText="Get Started"
+        title="Protecting your digital identity"
+        subtitle="DigiKey helps you remain in control of your data, what you share, when you share it and who you share it with. DigiKey is free and always will be!"
+        image={hero}
+        buttonText="Sign in"
         buttonColor="primary"
-        buttonPath="/pricing"
+        buttonPath="/auth/signin"
       />
       <ClientsSection
         bgColor="light"
@@ -33,16 +34,8 @@ function IndexPage(props) {
         size="medium"
         bgImage=""
         bgImageOpacity={1}
-        title="Features"
-        subtitle="All the features you need to move faster"
-      />
-      <TestimonialsSection
-        bgColor="light"
-        size="medium"
-        bgImage=""
-        bgImageOpacity={1}
-        title="Here's what people are saying"
-        subtitle=""
+        title="What can I do with DigiKey?"
+        subtitle="All the info you need, in one place"
       />
       <NewsletterSection
         bgColor="default"
@@ -50,7 +43,7 @@ function IndexPage(props) {
         bgImage=""
         bgImageOpacity={1}
         title="Stay in the know"
-        subtitle="Receive our latest articles and feature updates"
+        subtitle="Don't want to try DigiKey just yet? Sign up and we'll keep you updated about new features."
         buttonText="Subscribe"
         buttonColor="primary"
         inputPlaceholder="Enter your email"
