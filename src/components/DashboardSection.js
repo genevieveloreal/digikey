@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Section from "./Section";
 import Container from "@material-ui/core/Container";
 import SectionHeader from "./SectionHeader";
@@ -27,6 +27,9 @@ function DashboardSection(props) {
   const classes = useStyles();
   const router = useRouter();
 
+  const [locationFetchingStatus, setLocationFetchingStatus] = useState(false)
+  const [testingSites, setTestingSites] = useState(undefined);
+
   const states = {
     ACT: "ACT",
     NSW: "NSW",
@@ -48,7 +51,6 @@ function DashboardSection(props) {
     VIC: { },
     WA: { }
   }
-
   const [locationState, setLocationState] = useState(states.NSW);
 
   const handleLocationStateChange = (event) => {
@@ -117,6 +119,14 @@ function DashboardSection(props) {
                 <Button button color="primary" variant="contained" size="large" href="/checkin">Check-in Now</Button>
               </CardContent>
             </Card>
+            <br/>
+            {testingSites && <Card>
+              <CardContent className={classes.cardContent}>
+                <Typography variant="h6" paragraph={true}>
+                  <strong>Local Testing Sites</strong>
+                </Typography>
+              </CardContent>
+            </Card>}
           </Grid>
         </Grid>
       </Container>

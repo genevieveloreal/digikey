@@ -21,6 +21,7 @@ import { spacing } from '@material-ui/system';
 import { useAuth } from "./../util/auth.js";
 import { updateItem, deleteItem, useItemsByOwner } from "./../util/db.js";
 import { makeStyles } from "@material-ui/core/styles";
+import { DigiKeyContext } from "../pages/_app";
 
 const useStyles = makeStyles((theme) => ({
   paperItems: {
@@ -52,6 +53,8 @@ function DashboardItems(props) {
   ];
 
   const [dataItems, setDataItems] = useState(items);
+  const [wastewaterItems, setWasteWaterItems] = useState(undefined);
+  const [status, setStatus] = useState(false);
 
   const deleteItem = (id) => {
     const newItems = dataItems.filter(item => item.id !== id);
@@ -65,14 +68,28 @@ function DashboardItems(props) {
     setCreatingItem(false);
   };
 
+  let wastewaterLocations = [];
+
+  React.useEffect(()=> {
+    wastewaterLocations = fetch('http://localhost/api/wastewater/qld')
+      .then((res) => res.json())
+      .then((res) => { setWasteWaterItems(res); setStatus(true);} )
+  }, [])
+
+  let lastLocation;
+  if (status) {
+    lastLocation = wastewaterItems.pop()
+  }
+
+
   const dataItemsLength = dataItems.length;
 
   return (
     <>
       <Box mb={3}>
-        <Alert severity="error">You recently visited <strong>Bunnings Newmarket</strong> on <strong>21 August 2021 (11:05AM)</strong>. Please get tested at your nearest COVID-19 testing location.</Alert>
+         <Alert severity="error">You recently visited <strong>Bunnings Newmarket</strong> on <strong>21 August 2021 (11:05AM)</strong>. Please get tested at your nearest COVID-19 testing location.</Alert>
         <br />
-        <Alert severity="warning">COVID-19 has been detected in your area. Stay safe and if you have any symptoms, please get tested.</Alert>
+        { props.locationState === "QLD" && status &&  <Alert severity="warning">COVID-19 has been detected in your area ({ lastLocation.Site }). Stay safe and if you have any symptoms, please get tested.</Alert> }
       </Box>
       <Paper className={classes.paperItems}>
         <Box
