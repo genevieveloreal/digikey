@@ -15,7 +15,7 @@ function CheckInPage(props) {
 
   const handleScan = data => {
     if (data) {
-      setResult(result);
+      setResult(data);
     }
   };
 
@@ -27,7 +27,7 @@ function CheckInPage(props) {
     if (result) {
       history.replace("/share");
     }
-  }, result);
+  }, [result]);
 
   return (
     <Section
