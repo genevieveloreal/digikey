@@ -1,0 +1,2529 @@
+[
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "David Jones – Westfield Chermside Gympie Rd",
+    "Suburb": "Chermside",
+    "Start of exposure": "11.06am",
+    "End of exposure": "11.13am"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Smithfield Shopping Centre Kennedy Hwy &, Captain Cook Hwy",
+    "Suburb": "Smithfield",
+    "Start of exposure": "11.10am",
+    "End of exposure": "12pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Subway Smithfield Shopping Centre, Kennedy Hwy &, Captain Cook Hwy",
+    "Suburb": "Smithfield",
+    "Start of exposure": "11.10am",
+    "End of exposure": "12pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Ali Babba Kebab House Smithfield Shopping Centre, Kennedy Hwy &, Captain Cook Hwy",
+    "Suburb": "Smithfield",
+    "Start of exposure": "11.10am",
+    "End of exposure": "12pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Centrelink Chermside 18 Banfield St",
+    "Suburb": "Chermside",
+    "Start of exposure": "11.22am",
+    "End of exposure": "12.07pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Q Super Shopping Centre Cnr Markeri & Bermuda Sts, Mermaid Waters",
+    "Suburb": "Mermaid Waters",
+    "Start of exposure": "11.45am",
+    "End of exposure": "2pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Little Sparrow Café – Westfield Chermside Gympie Rd",
+    "Suburb": "Chermside",
+    "Start of exposure": "12pm",
+    "End of exposure": "1pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Woolworths  - Banyo Retail Centre 279 Tufnell Road",
+    "Suburb": "Banyo",
+    "Start of exposure": "1.15pm",
+    "End of exposure": "2.15pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Q Super Centre Chempro Chemist Q Super Centre, Cnr, Markeri & Bermuda Streets",
+    "Suburb": "Mermaid Waters",
+    "Start of exposure": "1.40pm",
+    "End of exposure": "2pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Goldsteins Bakery Q Super Centre, Cnr Markeri and Bermuda Streets",
+    "Suburb": "Mermaid Waters",
+    "Start of exposure": "1.45pm",
+    "End of exposure": "2.05pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Tuk Tuk by the Sea 6/2-8 Trinity Beach Rd",
+    "Suburb": "Trinity Beach",
+    "Start of exposure": "5pm",
+    "End of exposure": "5.30pm"
+  },
+  {
+    "Date": "Friday 23 July 2021",
+    "Place": "Goodstart Early Learning Parkwood 4 Woodlands Way",
+    "Suburb": "Parkwood",
+    "Start of exposure": "5pm",
+    "End of exposure": "6pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "JKA Karate Holy Family School Hall, 37 Ward Street",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "9am",
+    "End of exposure": "10.30am"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Brisbane City Backpackers HQ 380 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Joe’s Place Backpackers 390 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Anaconda Cairns Homemaker Centre (Cnr Draper & Kenny St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "10am",
+    "End of exposure": "10.05am"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Bunnings 71/83 Kenny St, Portsmith QLD 4870",
+    "Suburb": "Cairns City",
+    "Start of exposure": "10.49am",
+    "End of exposure": "11am"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Caltex Kenny St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "11am",
+    "End of exposure": "11.10am"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "City Beach Cairns Central Shopping Centre, 1/21 McLeod St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "11.15am",
+    "End of exposure": "11.30am"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Broadwater Parklands Playground Marine Parade",
+    "Suburb": "Southport",
+    "Start of exposure": "11.30am",
+    "End of exposure": "1.15pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Rusty’s Market Sheridan St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "12pm",
+    "End of exposure": "12.15pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "LeeLong Fresh, Rusty’s Market Rusty’s Market, Sheridan St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "12pm",
+    "End of exposure": "12.15pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Pacific Fair Shopping Centre 2/32 Hooker Blvd",
+    "Suburb": "Broadbeach Waters",
+    "Start of exposure": "2pm",
+    "End of exposure": "3pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Hakataya Ramen – FF-1, Pacific Fair Shopping Centre 2/32 Hooker Blvd",
+    "Suburb": "Broadbeach Waters",
+    "Start of exposure": "2.10pm",
+    "End of exposure": "2.40pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Hero Sushi – Pacific Fair Shopping Centre 2/32 Hooker Blvd",
+    "Suburb": "Broadbeach Waters",
+    "Start of exposure": "2.25pm",
+    "End of exposure": "2.45pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Pacific Fair Shopping Centre - Male Toilets – Ground Floor adjacent to Fresh Food Precinct. 2/32 Hooker Blvd",
+    "Suburb": "Broadbeach Waters",
+    "Start of exposure": "2.30pm",
+    "End of exposure": "2.45pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Pacific Fresh Fruit market – Pacific Fair Shopping Centre 2/32 Hooker Blvd",
+    "Suburb": "Broadbeach Waters",
+    "Start of exposure": "2.35pm",
+    "End of exposure": "3pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "UQ Basketball Courts (Between the tennis courts and Athletic track). Sir William Macgregor Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "3.50pm",
+    "End of exposure": "5pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Toilets between UQ Basketball and UQ Netball Courts Sir William Macgregor Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "3.50pm",
+    "End of exposure": "5pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Hope Energy Service Station 241 Brisbane Road",
+    "Suburb": "Biggera Waters",
+    "Start of exposure": "4pm",
+    "End of exposure": "4.25pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Shalom Restaurant Shop 2/224 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "5.13pm",
+    "End of exposure": "6.30pm"
+  },
+  {
+    "Date": "Saturday 24 July 2021",
+    "Place": "Westfield Helensvale Shopping Centre 1-29 Millaroo Drive",
+    "Suburb": "Helensvale",
+    "Start of exposure": "9am",
+    "End of exposure": "10.45am"
+  },
+  {
+    "Date": "Sunday 25 July 2021",
+    "Place": "Blunder Road Country Markets 3/150 Blunder Rd",
+    "Suburb": "Oxley",
+    "Start of exposure": "8.30am",
+    "End of exposure": "9.10am"
+  },
+  {
+    "Date": "Sunday 25 July 2021",
+    "Place": "ALDI Oxley 146 Blunder Rd",
+    "Suburb": "Oxley",
+    "Start of exposure": "8.55am",
+    "End of exposure": "9.25am"
+  },
+  {
+    "Date": "Sunday 25 July 2021",
+    "Place": "Chemist Warehouse Oxley 146 Blunder Rd",
+    "Suburb": "Oxley",
+    "Start of exposure": "9.10am",
+    "End of exposure": "9.30am"
+  },
+  {
+    "Date": "Sunday 25 July 2021",
+    "Place": "Brisbane City Backpackers HQ 380 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Sunday 25 July 2021",
+    "Place": "Joe’s Place Backpackers 390 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Sunday 25 July 2021",
+    "Place": "Royal Brisbane Hospital, UQ Health Science Building School Central, Fig Tree Dr",
+    "Suburb": "Herston",
+    "Start of exposure": "10.44am",
+    "End of exposure": "1.30pm"
+  },
+  {
+    "Date": "Sunday 25 July 2021",
+    "Place": "RBWH Ground Floor main atrium and entrance Butterfield St",
+    "Suburb": "Herston",
+    "Start of exposure": "5.41pm",
+    "End of exposure": "6.10pm"
+  },
+  {
+    "Date": "Sunday 25 July 2021",
+    "Place": "Royal Brisbane Hospital Dr James Mayne Building Level 3 Coronary Care Unit, Pod 1 Western section, and seats outside CCU Butterfield St",
+    "Suburb": "Herston",
+    "Start of exposure": "5.43pm",
+    "End of exposure": "6.10pm"
+  },
+  {
+    "Date": "Sunday 25 July 2021",
+    "Place": "McDonalds - Jindalee Homemaker City, 12A Goggs Rd",
+    "Suburb": "Jindalee",
+    "Start of exposure": "6.20pm",
+    "End of exposure": "6.55pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Outside School Hours Care, Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Otto Hirschfeld Building. Level 2, Lab room 210 The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "9.57am",
+    "End of exposure": "10.30am"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Otto Hirschfeld Building (Building 81) The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "9.57am",
+    "End of exposure": "10.30am"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace",
+    "Suburb": "Spring Hill",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Brisbane City Backpackers HQ 380 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Joe’s Place Backpackers 390 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Lees & Henschell Optometry Kenmore 12 Wongabel St",
+    "Suburb": "Kenmore",
+    "Start of exposure": "3pm",
+    "End of exposure": "3.30pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "McDonalds Kenmore Drive Through 841 Moggill Road",
+    "Suburb": "Kenmore",
+    "Start of exposure": "3.40pm",
+    "End of exposure": "3.45pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Cribb Island Beach Club (Ibis Hotel) Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "6.15pm",
+    "End of exposure": "7.15pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Emergency Department waiting area - Royal Brisbane and Women’s Hospital Butterfield Street",
+    "Suburb": "Herston",
+    "Start of exposure": "9.45pm",
+    "End of exposure": "10.03pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Northern Ring Road Taxi rank (outside emergency department) - Royal Brisbane and Women’s Hospital Butterfield Street",
+    "Suburb": "Herston",
+    "Start of exposure": "10.23pm",
+    "End of exposure": "10.58pm"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Cairns Domestic Airport Airport Ave",
+    "Suburb": "Cairns City",
+    "Start of exposure": "4.50am",
+    "End of exposure": "6am"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Brisbane Airport (Domestic) Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "7.45am",
+    "End of exposure": "8.15am"
+  },
+  {
+    "Date": "Monday 26 July 2021",
+    "Place": "Avis Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "8.15am",
+    "End of exposure": "8.35am"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Outside School Hours Care, Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Pullenvale Jabiru Before School Care – Pullenvale State School 120 Grandview Road",
+    "Suburb": "Pullenvale",
+    "Start of exposure": "6.50am",
+    "End of exposure": "7am"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Modwest Building The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "7.28am",
+    "End of exposure": "11.40am"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Indooroopilly State High School 111 Ward St",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "8am",
+    "End of exposure": "10am"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Night Owl Taringa Shop 2/144 Indooroopilly Road",
+    "Suburb": "Taringa",
+    "Start of exposure": "8.15am",
+    "End of exposure": "8.30am"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Queensland Gallery of Modern Art (GOMA) Queensland Cultural Centre, Stanley Place.",
+    "Suburb": "South Brisbane",
+    "Start of exposure": "9.45am",
+    "End of exposure": "11am"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace",
+    "Suburb": "Spring Hill",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Brisbane City Backpackers HQ 380 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Joe’s Place Backpackers 390 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Holy Family School Hall 37 Ward Street",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "South Bank - walkway from the Cultural Centre to the Wheel of Brisbane South Bank Promenade",
+    "Suburb": "South Brisbane",
+    "Start of exposure": "10.45am",
+    "End of exposure": "11.20am"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Duhig North Building (Library) The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "11.44am",
+    "End of exposure": "2.45pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Building 69, level 5 The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "2.54pm",
+    "End of exposure": "6pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Building 69, rooms 511, 512, 513 The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "2.54pm",
+    "End of exposure": "6pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Briki Espresso & Gelati Bar St Lucia 2/28 Hawken Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "3.40pm",
+    "End of exposure": "4pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Abel Smith Lecture Theatre Building 23 The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "6pm",
+    "End of exposure": "7pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "JKA Karate Holy Family School Hall, 37 Ward Street",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "6pm",
+    "End of exposure": "7.40pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Cribb Island Beach Club (Ibis Hotel) Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "6.30pm",
+    "End of exposure": "7.30pm"
+  },
+  {
+    "Date": "Tuesday 27 July 2021",
+    "Place": "Cribb Island Beach Club (Ibis Hotel) Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "7am",
+    "End of exposure": "7.30am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Passengers in Cairns Taxis (Excluding Maxi Cabs) Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "12am",
+    "End of exposure": "3pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Outside School Hours Care, Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Brisbane City Backpackers HQ 380 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "1am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Joe’s Place Backpackers 390 Upper Roma St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12am",
+    "End of exposure": "1am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Bunnings, Mount Gravatt Wecker Rd",
+    "Suburb": "Mount Gravatt",
+    "Start of exposure": "7am",
+    "End of exposure": "7.35am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Qantas Domestic Airport Brisbane Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "7.20am",
+    "End of exposure": "8.30am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Modwest Building The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "7.30am",
+    "End of exposure": "10am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Indooroopilly State High School – including after school activities 111 Ward St",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "8am",
+    "End of exposure": "4.30pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Pullenvale State School – prep rooms area 120 Grandview Road",
+    "Suburb": "Pullenvale",
+    "Start of exposure": "8.45am",
+    "End of exposure": "9am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Market Organics Chapel Hill 10/620 Moggill Rd",
+    "Suburb": "Chapel Hill",
+    "Start of exposure": "9am",
+    "End of exposure": "9.15am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Coles Moggill Shopping Village 3366 Moggill Road",
+    "Suburb": "Moggill",
+    "Start of exposure": "9.10am",
+    "End of exposure": "9.30am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Moggill Village News / Australia Post Bellbowrie 3366 Moggill Road",
+    "Suburb": "Moggill",
+    "Start of exposure": "9.30am",
+    "End of exposure": "9.45am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Rockhampton Airport 81 Canoona Rd",
+    "Suburb": "West Rockhampton",
+    "Start of exposure": "9.38am",
+    "End of exposure": "9.55am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Southern departure female toilet (located in security check in area) - Rockhampton Airport 81 Canoona Rd",
+    "Suburb": "West Rockhampton",
+    "Start of exposure": "9.39am",
+    "End of exposure": "10am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace",
+    "Suburb": "Spring Hill",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Holy Family School Hall 37 Ward Street",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Michie Building Level 2 (Building 9) The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "10am",
+    "End of exposure": "12.20pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Caltex Gracemere 10 McLaughlin Street",
+    "Suburb": "Gracemere",
+    "Start of exposure": "10.17am",
+    "End of exposure": "10.19am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Rookwood Weir Worksite & Workers Camp onsite at Rookwood Weir",
+    "Suburb": "Rookwood Weir",
+    "Start of exposure": "11.30am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "UQ Lakes Bus Station, North Platform D & E University of Queensland",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12.15pm",
+    "End of exposure": "12.20pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Bus Route 66, departed at 1240 UQ Lakes Bus Station to PA Hospital Bus Station",
+    "Suburb": "Bus Route 66",
+    "Start of exposure": "12.40pm",
+    "End of exposure": "1.05pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Translational Research Institute, Ground Floor Princess Alexandra Hospital, 37 Kent St",
+    "Suburb": "Woolloongabba",
+    "Start of exposure": "12.50pm",
+    "End of exposure": "2.45pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Bus Route 28, departed at approx. 1430 PA Hospital Bus Station to UQ Lakes Bus Station",
+    "Suburb": "Bus Route 28",
+    "Start of exposure": "2.30pm",
+    "End of exposure": "2.55pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Otto Hirschfeld Building Level 2 and 3 (Building 81) The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "2.51pm",
+    "End of exposure": "5pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Georgie Parkes Swim School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "3pm",
+    "End of exposure": "4.45pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Bus stop waiting area Gregory Tce at Torrington street, stop 5, Spring Hill Gregory Tce at Torrington street, stop 5",
+    "Suburb": "Spring Hill",
+    "Start of exposure": "3pm",
+    "End of exposure": "3.18pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Bus route 411 Gregory Tce at Torrington street, stop 5, Spring Hill to Swann Rd at Ironside School, stop 23/24, St Lucia",
+    "Suburb": "Bus route 411",
+    "Start of exposure": "3.18pm",
+    "End of exposure": "4pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Australian Girls’ Choir practise - Brigidine College 53 Ward St",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "5pm",
+    "End of exposure": "6pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Grill'd Toowoong Shop G44/9 Sherwood Rd",
+    "Suburb": "Toowong",
+    "Start of exposure": "5.15pm",
+    "End of exposure": "6pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Jack Cook Memorial Park - U8 Eagle Group, Taringa Rovers Soccer Club 40/45 Indooroopilly Rd",
+    "Suburb": "Toowong",
+    "Start of exposure": "5.30pm",
+    "End of exposure": "6.30pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Jack Cook Memorial Park –Taringa Rovers Soccer Club training (except U8 Eagle Group) 40/45 Indooroopilly Rd",
+    "Suburb": "Toowong",
+    "Start of exposure": "5.30pm",
+    "End of exposure": "6.30pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Southbank TAFE Campus 66 Ernest St",
+    "Suburb": "South Brisbane",
+    "Start of exposure": "6pm",
+    "End of exposure": "9pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Australia Girls’ Choir Practise – Brigidine College 53 Ward St",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "6pm",
+    "End of exposure": "6.35pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Cribb Island Beach Club (Ibis Hotel) Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "6.30pm",
+    "End of exposure": "8.20pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Southbank TAFE F Block Level 5 Rm 5015 66 Ernest St",
+    "Suburb": "South Brisbane",
+    "Start of exposure": "7pm",
+    "End of exposure": "9pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Passengers in Cairns Taxis Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "11.30pm",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Cribb Island Beach Club (Ibis Hotel) Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "7am",
+    "End of exposure": "7.45am"
+  },
+  {
+    "Date": "Wednesday 28 July 2021",
+    "Place": "Qantas Flight QF2362 Brisbane to Rockhampton",
+    "Suburb": "Brisbane to Rockhampton",
+    "Start of exposure": "8.30am",
+    "End of exposure": "9.50am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Rookwood Weir Worksite & Workers Camp onsite at Rookwood Weir",
+    "Suburb": "Rookwood Weir",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Outside School Hours Care, Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "AcuHealth acupuncture clinic 45 Kedron Brook Road",
+    "Suburb": "Wilston",
+    "Start of exposure": "6.45am",
+    "End of exposure": "8.10am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Bus 432 Moggill Rd stop 27(Indooroopilly State Primary School) to Lambert Rd Stop 25 (Indooroopilly State High School)",
+    "Suburb": "Bus route 432",
+    "Start of exposure": "7.41am",
+    "End of exposure": "8.01am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Brisbane Airport (Domestic) Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "7.45am",
+    "End of exposure": "9am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Indooroopilly State High School 111 Ward St",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "8am",
+    "End of exposure": "3.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Ipswich CBD Community Vaccination Clinic Nicholas Street Mall, (Ipswich Mall)",
+    "Suburb": "Ipswich",
+    "Start of exposure": "8am",
+    "End of exposure": "10.20am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Nicholas Street Mall Nicholas street, (Ipswich Mall) Including d’Arcy Doyle Place",
+    "Suburb": "Ipswich",
+    "Start of exposure": "8am",
+    "End of exposure": "10.30am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Family Dental Clinic – West End 3/12 Browning St",
+    "Suburb": "South Brisbane",
+    "Start of exposure": "8.10am",
+    "End of exposure": "9am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Night Owl Taringa Shop 2/144 Indooroopilly Road",
+    "Suburb": "Taringa",
+    "Start of exposure": "8.15am",
+    "End of exposure": "8.30am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Indooroopilly Shopping Centre 322 Moggill Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "8.30am",
+    "End of exposure": "11am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Female Toilets Level 2 near Forever New and Myer Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "8.45am",
+    "End of exposure": "8.50am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Market Organics Chapel Hill 10/620 Moggill Rd",
+    "Suburb": "Chapel Hill",
+    "Start of exposure": "8.48am",
+    "End of exposure": "9.05am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Myer Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "8.50am",
+    "End of exposure": "9.30am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "K & L Endo Level 1, Sunnybank Specialist Centre, 243 McCullough St",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "9am",
+    "End of exposure": "12pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Sunnybank Specialist Centre, Level 1 245 McCullough St",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "9am",
+    "End of exposure": "12pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Ipswich Hospital Fever Clinic Court Street",
+    "Suburb": "Ipswich",
+    "Start of exposure": "9am",
+    "End of exposure": "10am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Seed Heritage Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "9.20am",
+    "End of exposure": "9.35am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Target Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "9.25am",
+    "End of exposure": "9.50am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "H and M Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "9.45am",
+    "End of exposure": "10.10am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace",
+    "Suburb": "Spring Hill",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Holy Family School Hall 37 Ward Street",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Target Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10am",
+    "End of exposure": "10.15am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "School of Biomedical Sciences (Building 64 and 65) The University of Queensland, 280-284 Sir Fred Schonell Road",
+    "Suburb": "St Lucia",
+    "Start of exposure": "10am",
+    "End of exposure": "5.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Kmart Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10.10am",
+    "End of exposure": "10.45am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Stacks Discounts Store (next to Daiso near Aldi Lvl1) Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10.35am",
+    "End of exposure": "10.50am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Country Road Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10.45am",
+    "End of exposure": "11am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Female toilets near Rebel Store and JB Hifi Level 1 Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10.50am",
+    "End of exposure": "10.55am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Highgrove Bathrooms 899 Stanley St East",
+    "Suburb": "East Brisbane",
+    "Start of exposure": "11am",
+    "End of exposure": "11.25am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Darwin’s Café Building 94, The University of Queensland, Slip Road",
+    "Suburb": "St Lucia",
+    "Start of exposure": "11am",
+    "End of exposure": "11.45am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Cairns Airport baggage carousel 1 Airport Av",
+    "Suburb": "Cairns North",
+    "Start of exposure": "11.15am",
+    "End of exposure": "11.45am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Cairns Domestic Airport (other than baggage carousel) 1 Airport Av",
+    "Suburb": "Cairns North",
+    "Start of exposure": "11.15am",
+    "End of exposure": "11.45am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Gaming Lounge and adjacent smoking area, toilets and ATM, Brothers League Club 99-107 Anderson Street",
+    "Suburb": "Manunda",
+    "Start of exposure": "11.45am",
+    "End of exposure": "2.55pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Esquire Male Grooming Barber Shop 4B 19/23 Cribb St",
+    "Suburb": "Milton",
+    "Start of exposure": "11.45am",
+    "End of exposure": "12.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Andonis Café & Bar 4/281 Station Rd",
+    "Suburb": "Yeerongpilly",
+    "Start of exposure": "11.50am",
+    "End of exposure": "1.45pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Cairns Central Shopping Centre 1/21 Mcleod St & Spence St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "12pm",
+    "End of exposure": "1pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "That Viet Place 342 McCullough St",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "12pm",
+    "End of exposure": "12.40pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "JB HIFI, Cairns Central Store 1-2, Level 1, 1/21 Mcleod St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "12.10pm",
+    "End of exposure": "12.50pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Southside Bistro 49/342 McCullough St",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "12.25pm",
+    "End of exposure": "12.55pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Bunnings, Mount Gravatt Wecker Rd",
+    "Suburb": "Mount Gravatt",
+    "Start of exposure": "12.30pm",
+    "End of exposure": "1.05pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Bayleaf Balinese Restaurant Cnr Gatton St &, Lake St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "12.45pm",
+    "End of exposure": "2.15pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Pani Kebabs 201 Moggill Rd",
+    "Suburb": "Taringa",
+    "Start of exposure": "12.45pm",
+    "End of exposure": "1.05pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Sir William Macgregor Building (Building 64) The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12.52pm",
+    "End of exposure": "2.20pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Mater Private Hospital 30 Health Care Drive",
+    "Suburb": "Springfield Central",
+    "Start of exposure": "1pm",
+    "End of exposure": "4.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Darwin’s Café Building 94, The University of Queensland, Slip Road",
+    "Suburb": "St Lucia",
+    "Start of exposure": "2pm",
+    "End of exposure": "3.15pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Coles Jindalee Corner Goggs and Sinnamon Rds",
+    "Suburb": "Jindalee",
+    "Start of exposure": "2.55pm",
+    "End of exposure": "3.15pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "ALDI Indooroopilly Shopping Centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "3pm",
+    "End of exposure": "4pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Bus stop waiting area Gregory Tce at Torrington street, stop 5, Spring Hill Gregory Tce at Torrington street, stop 5",
+    "Suburb": "Spring Hill",
+    "Start of exposure": "3pm",
+    "End of exposure": "3.15pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Terry White Chemmart Jindalee 4/168 Sinnamon Rd",
+    "Suburb": "Jindalee",
+    "Start of exposure": "3pm",
+    "End of exposure": "3.20pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "OHSC classrooms and play area Playhouse Parent and Childcare Centre, UQ St Lucia Campus",
+    "Suburb": "St Lucia",
+    "Start of exposure": "3.08pm",
+    "End of exposure": "5.21pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "2-3/3-5 years classrooms and play area (Wallabies, Quokkas and Perenties) Playhouse Parent and Childcare Centre, UQ St Lucia Campus",
+    "Suburb": "St Lucia",
+    "Start of exposure": "3.08pm",
+    "End of exposure": "5.21pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "0-2 years classrooms and play area (Honey ants and Tree Frogs) Playhouse Parent and Childcare Centre, UQ St Lucia Campus",
+    "Suburb": "St Lucia",
+    "Start of exposure": "3.08pm",
+    "End of exposure": "5.21pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Indooroopilly Shopping Centre 322 Moggill Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "3.10pm",
+    "End of exposure": "3.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Woolworths Raintrees 1 Koch Street",
+    "Suburb": "Manunda",
+    "Start of exposure": "3.15pm",
+    "End of exposure": "4.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Raintrees Shopping Centre Cnr Alfred & Koch Streets",
+    "Suburb": "Manunda",
+    "Start of exposure": "3.15pm",
+    "End of exposure": "4.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Bus route 411 Gregory Tce at Torrington street, stop 5, Spring Hill to Swann Rd at Ironside School, stop 23/24, St Lucia",
+    "Suburb": "Bus route 411",
+    "Start of exposure": "3.15pm",
+    "End of exposure": "3.51pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Bus 718 Lambert Rd Stop 26 (St Peters Lutheran College) to Station Rd Stop E (Indooroopilly Shopping Centre)",
+    "Suburb": "Bus route 718",
+    "Start of exposure": "3.16pm",
+    "End of exposure": "3.28pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "David Jones Indooroopilly Shopping Centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "3.30pm",
+    "End of exposure": "3.31pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Senior Subject Selection EXPO Indooroopilly State High School, 111 Ward Street",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "3.30pm",
+    "End of exposure": "8pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Ethos Orthodontics Toowong 8/48-52 Sherwood Rd",
+    "Suburb": "Toowong",
+    "Start of exposure": "3.55pm",
+    "End of exposure": "4.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Bluewater Village Early Learning 1 Maritime Way",
+    "Suburb": "Trinity Beach",
+    "Start of exposure": "4pm",
+    "End of exposure": "6.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Pullenvale Jabiru After School Care, Pullenvale State School 120 Grandview Road",
+    "Suburb": "Pullenvale",
+    "Start of exposure": "4pm",
+    "End of exposure": "4.10pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Northern Beaches Swim School Poolwood Rd",
+    "Suburb": "Kewarra Beach",
+    "Start of exposure": "4.15pm",
+    "End of exposure": "5.15pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Indooroopilly Shopping Centre 322 Moggill Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "4.15pm",
+    "End of exposure": "5.15pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Sono School of Music – Station Rd Studio 1/30 Station Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "4.20pm",
+    "End of exposure": "5pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Caltex 3198 Moggill Road",
+    "Suburb": "Bellbowrie",
+    "Start of exposure": "4.20pm",
+    "End of exposure": "4.25pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Court 1 - Western Districts Netball Association Faulkner Park, Waratah Ave",
+    "Suburb": "Graceville",
+    "Start of exposure": "4.30pm",
+    "End of exposure": "5.40pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Western Districts Netball Association - Entire venue except Court 1 Faulkner Park, Waratah Ave",
+    "Suburb": "Graceville",
+    "Start of exposure": "4.30pm",
+    "End of exposure": "5.40pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Crocodiles group training - UQ Sport Aquatic Centre Cnr Blair Dr and Union Rd, The University of Queensland",
+    "Suburb": "St Lucia",
+    "Start of exposure": "4.45pm",
+    "End of exposure": "6.05pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "UQ Sport Aquatic Centre (except Crocodiles group training) Cnr Blair Dr and Union Rd, The University of Queensland",
+    "Suburb": "St Lucia",
+    "Start of exposure": "4.45pm",
+    "End of exposure": "6.05pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Bunnings Indooroopilly 94-108 Coonan St",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "6pm",
+    "End of exposure": "6.12pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "JKA Karate Holy Family School Hall, 37 Ward Street",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "6pm",
+    "End of exposure": "7.40pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Sushi Train Indooroopilly Shop 2, Indooroopilly Junction, 100 Coonan St",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "6.12pm",
+    "End of exposure": "7.15pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "St Peters Lutheran College – all debating rooms other than MSN3 or open-air corridors outside MSN3, MSN4, MSO4, MSO5 66 Harts Rd",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "6.30pm",
+    "End of exposure": "8.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "St Peters Lutheran College – Room MSN3 66 Harts Rd",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "6.45pm",
+    "End of exposure": "8.30pm"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Cribb Island Beach Club (Ibis Hotel) Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "7am",
+    "End of exposure": "7.30am"
+  },
+  {
+    "Date": "Thursday 29 July 2021",
+    "Place": "Qantas flight QF708 Brisbane to Cairns",
+    "Suburb": "Brisbane to Cairns",
+    "Start of exposure": "9.17am",
+    "End of exposure": "11.15am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Rookwood Weir Worksite & Workers Camp onsite at Rookwood Weir",
+    "Suburb": "Rookwood Weir",
+    "Start of exposure": "12am",
+    "End of exposure": "4pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Outside School Hours Care, Ironside State School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Endoscopy Suite and Recovery area, Sunnybank Private Hospital 245 McCullough St",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "7.55am",
+    "End of exposure": "12.15pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Cairns Central Shopping Centre 1/21 Mcleod St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "8am",
+    "End of exposure": "10.30am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Brisbane Girls Grammar School – All of campus Including Open Day Event and Extracurricular activities 70 Gregory Terrace",
+    "Suburb": "Spring Hill",
+    "Start of exposure": "8am",
+    "End of exposure": "8.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Yamanto Bakery Yamanto Shopping Village, 512 Warwick Rd,",
+    "Suburb": "Yamanto",
+    "Start of exposure": "8am",
+    "End of exposure": "8.17am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "John Oxley Centre 339 Coronation Dr",
+    "Suburb": "Milton",
+    "Start of exposure": "8.10am",
+    "End of exposure": "9am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "John Oxley Centre – Male toilets ground level -North tower 339 Coronation Dr",
+    "Suburb": "Milton",
+    "Start of exposure": "8.10am",
+    "End of exposure": "9am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Studio 99 Fitness Centre 339 Coronation Dr",
+    "Suburb": "Milton",
+    "Start of exposure": "8.10am",
+    "End of exposure": "9am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Blocksidge Building 144 Adelaide St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "8.20am",
+    "End of exposure": "8.30am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "179 Ann St Parking 179 Ann St",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "8.30am",
+    "End of exposure": "8.40am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "1300SMILES Dental Practice, Cairns Central Shopping Centre: Waiting room and reception area Ground level, 1/21 Mcleod St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "8.40am",
+    "End of exposure": "10.30am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Ampol Foodary (previously Caltex Starmart), Hyperdome 6 Leda Dr",
+    "Suburb": "Shailer Park",
+    "Start of exposure": "8.45am",
+    "End of exposure": "9.15am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "School of Biomedical Sciences (Building 64 and 65) The University of Queensland, 280-284 Sir Fred Schonell Road",
+    "Suburb": "St Lucia",
+    "Start of exposure": "9am",
+    "End of exposure": "4pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Chancellor’s Place Bus stop The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "9.45am",
+    "End of exposure": "9.54am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Bus Route 412, departed at 0945 Sir Fred Schonell Dve, St Lucia to UQ Chancellor’s Place, University of Queensland",
+    "Suburb": "Bus Route 412",
+    "Start of exposure": "9.45am",
+    "End of exposure": "10.05am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Michie Building Level 2 (Building 9) The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "9.54am",
+    "End of exposure": "12.20pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Bluewater Village Early Learning 1 Maritime Way",
+    "Suburb": "Trinity Beach",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Brisbane Grammar School Campus (Including indoor sporting centre) 24 Gregory Terrace",
+    "Suburb": "Spring Hill",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Holy Family School Hall 37 Ward Street",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Officeworks/Coles entrance 44 Brisbane Street,",
+    "Suburb": "Ipswich",
+    "Start of exposure": "10.49am",
+    "End of exposure": "11.15am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Officeworks 44 Brisbane Street",
+    "Suburb": "Ipswich",
+    "Start of exposure": "10.49am",
+    "End of exposure": "11.15am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Toowong Village Shopping Centre (including car park) 9 Sherwood Road",
+    "Suburb": "Toowong",
+    "Start of exposure": "11.15am",
+    "End of exposure": "12.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Bundamba Family Store – The Salvation Army 12 Coal Street",
+    "Suburb": "Bundamba",
+    "Start of exposure": "11.18am",
+    "End of exposure": "12pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Transport and Main Roads Toowong 15 Lissner Street",
+    "Suburb": "Toowong",
+    "Start of exposure": "11.20am",
+    "End of exposure": "11.25am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Boost Juice Shop G57, Toowong Village Shopping Centre",
+    "Suburb": "Toowong",
+    "Start of exposure": "11.35am",
+    "End of exposure": "11.45am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Udonya Tokoton Restaurant Shop 86 Sunnybank Plaza, 358 Mains Rd",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "11.40am",
+    "End of exposure": "12.20pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Sunnybank Plaza 358 Mains Rd",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "11.40am",
+    "End of exposure": "1.15pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Coles Shop G56, Toowong Village Shopping Centre",
+    "Suburb": "Toowong",
+    "Start of exposure": "12pm",
+    "End of exposure": "12.20pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Formosa Asian Market Shop 88 Sunnybank Plaza, 358 Mains Rd",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "12pm",
+    "End of exposure": "12.40pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Pizza Caffe UQ Union Complex, The University of Queensland, Campbell Place, off Union Road.",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12pm",
+    "End of exposure": "1.15pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "1st floor & 1st floor toilet, Oche Fortitude Valley - Dine-in 111 Constance St",
+    "Suburb": "Fortitude Valley",
+    "Start of exposure": "12.12pm",
+    "End of exposure": "3.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "1st floor & 1st floor toilet, Oche Fortitude Valley - Take-away 111 Constance St",
+    "Suburb": "Fortitude Valley",
+    "Start of exposure": "12.12pm",
+    "End of exposure": "3.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Oche Fortitude Valley, 2nd floor 111 Constance St",
+    "Suburb": "Fortitude Valley",
+    "Start of exposure": "12.12pm",
+    "End of exposure": "3.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Female toilet near Coles, Sunnybank Plaza Sunnybank Plaza, 358 Mains Rd",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "12.15pm",
+    "End of exposure": "12.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Market Organics Chapel Hill 10/620 Moggill Rd",
+    "Suburb": "Chapel Hill",
+    "Start of exposure": "12.20pm",
+    "End of exposure": "12.40pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Coles, Sunnybank Plaza Sunnybank Plaza, 358 Mains Rd",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "12.20pm",
+    "End of exposure": "1.15pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Chancellor’s Place Bus stop The University of Queensland, 280-284 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "12.20pm",
+    "End of exposure": "12.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Bus Route 412, departed at approx. 1225 UQ Chancellor’s Place to Stop 19 Sir Fred Schonell Dve, St Lucia",
+    "Suburb": "Bus Route 412",
+    "Start of exposure": "12.25pm",
+    "End of exposure": "12.55pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Kua Thai Isan Traditional Thai Restaurant 153C Scarborough Street",
+    "Suburb": "Southport",
+    "Start of exposure": "12.30pm",
+    "End of exposure": "2pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Pacific Petroleum 138 McCullough St",
+    "Suburb": "Sunnybank",
+    "Start of exposure": "12.40pm",
+    "End of exposure": "1.05pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Saigon Yummy 8/225 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "1.15pm",
+    "End of exposure": "1.55pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "IGA Marketplace 240 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "1.20pm",
+    "End of exposure": "1.22pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "IGA Marketplace – Men’s bathroom 240 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "1.22pm",
+    "End of exposure": "1.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Woolworths Raintrees 1 Koch Street",
+    "Suburb": "Manunda",
+    "Start of exposure": "1.30pm",
+    "End of exposure": "2.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Raintrees Shopping Centre Cnr Alfred & Koch Streets",
+    "Suburb": "Manunda",
+    "Start of exposure": "1.30pm",
+    "End of exposure": "2.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Bupa Dental Toowong 36 Jephson St",
+    "Suburb": "Toowong",
+    "Start of exposure": "2.55pm",
+    "End of exposure": "3.25pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Petrie Tce At Normanby Fiveways, stop 4 waiting area Petrie Tce At Normanby Fiveways, stop 4",
+    "Suburb": "Petrie Terrace",
+    "Start of exposure": "3pm",
+    "End of exposure": "3.15pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Georgie Parkes Swim School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "3pm",
+    "End of exposure": "3.45pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Bus stop waiting area Gregory Tce at Torrington street, stop 5, Spring Hill Gregory Tce at Torrington street, stop 5",
+    "Suburb": "Spring Hill",
+    "Start of exposure": "3pm",
+    "End of exposure": "3.26pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Bus route 381 From Petrie Tce At Normanby Fiveways, stop 4 to Musgrave Rd at Red Hill Shops, stop 8",
+    "Suburb": "Bus route 381",
+    "Start of exposure": "3.15pm",
+    "End of exposure": "3.19pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Indooroopilly Shopping centre 322 Moggill Rd",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "3.25pm",
+    "End of exposure": "4.55pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Bus route 411 Gregory Tce at Torrington street, stop 5, Spring Hill to Swann Rd at Ironside School, stop 23/24, St Lucia",
+    "Suburb": "Bus route 411",
+    "Start of exposure": "3.26pm",
+    "End of exposure": "3.57pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Newsagent Metro News on First Level 1 - Indooroopilly Shopping centre. 322 Moggill Rd",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "3.30pm",
+    "End of exposure": "3.35pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Jacqui E Level 2 - Indooroopilly Shopping centre. 322 Moggill Rd",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "3.30pm",
+    "End of exposure": "3.50pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Sharee Skye Dance Centre 9/39 Campbell St",
+    "Suburb": "Toowong",
+    "Start of exposure": "3.30pm",
+    "End of exposure": "5.20pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Ashgrove Fresh Fruit Market 1/15 Steward Road",
+    "Suburb": "Ashgrove",
+    "Start of exposure": "3.36pm",
+    "End of exposure": "4pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Pet Cafe 254 Waterworks Road",
+    "Suburb": "Ashgrove",
+    "Start of exposure": "3.40pm",
+    "End of exposure": "3.55pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Woolworths Ashgrove 16 Ashgrove Avenue",
+    "Suburb": "Ashgrove",
+    "Start of exposure": "3.40pm",
+    "End of exposure": "4.40pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Toowong Village Shopping Centre 9 Sherwood Road",
+    "Suburb": "Toowong",
+    "Start of exposure": "3.45pm",
+    "End of exposure": "5.15pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "7-Eleven Ashgrove 268 Waterworks Road",
+    "Suburb": "Ashgrove",
+    "Start of exposure": "3.50pm",
+    "End of exposure": "4.05pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Refreshed Massage Level 1 - Indooroopilly Shopping centre. 322 Moggill Rd",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "3.50pm",
+    "End of exposure": "4.45pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Merlo Coffee Toowong Village Shopping Centre, Shop K4, 9 Sherwood Road",
+    "Suburb": "Toowong",
+    "Start of exposure": "3.50pm",
+    "End of exposure": "4.12pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Kmart Toowong Village Shopping Centre, Shop L28,  9 Sherwood Road",
+    "Suburb": "Toowong",
+    "Start of exposure": "4.05pm",
+    "End of exposure": "5.05pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "UQ Sport Aquatic Centre (except Barracuda group training) Cnr Blair Drive and Union Road, The University of Queensland",
+    "Suburb": "St Lucia",
+    "Start of exposure": "4.15pm",
+    "End of exposure": "6pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Georgie Parkes Swim School 2 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "4.15pm",
+    "End of exposure": "4.45pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Pullenvale Jabiru After School Care, Pullenvale State School 120 Grandview Road",
+    "Suburb": "Pullenvale",
+    "Start of exposure": "4.30pm",
+    "End of exposure": "4.45pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Barracuda group training - UQ Sport Aquatic Centre Cnr Blair Dr and Union Rd, The University of Queensland",
+    "Suburb": "St Lucia",
+    "Start of exposure": "4.45pm",
+    "End of exposure": "6.05pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Mirchh Masala Impex, Grocery Store and Restaurant 3/110 Logan Rd",
+    "Suburb": "Woolloongabba",
+    "Start of exposure": "5pm",
+    "End of exposure": "5.45pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Rockhampton Airport 81 Canoona Rd",
+    "Suburb": "West Rockhampton",
+    "Start of exposure": "5.25pm",
+    "End of exposure": "6.35pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Cielo Rooftop Bar Rooftop, 209 Brunswick St",
+    "Suburb": "Fortitude Valley",
+    "Start of exposure": "6pm",
+    "End of exposure": "10pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Southern departure female toilet (located in security check in area) - Rockhampton Airport 81 Canoona Rd",
+    "Suburb": "West Rockhampton",
+    "Start of exposure": "6.24pm",
+    "End of exposure": "8.23pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Qantas Flight QF2365 Rockhampton to Brisbane",
+    "Suburb": "Rockhampton to Brisbane",
+    "Start of exposure": "6.40pm",
+    "End of exposure": "7.50pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Pizza Capers Kenmore Shop 53A, Kenmore Village Shopping Centre, Cnr Moggill and Brookfield Rd",
+    "Suburb": "Kenmore",
+    "Start of exposure": "7.15pm",
+    "End of exposure": "7.25pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Princess Alexandra Hospital, Emergency Department waiting room 199 Ipswich Rd",
+    "Suburb": "Woolloongabba",
+    "Start of exposure": "7.29pm",
+    "End of exposure": "8.35pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Qantas Domestic Airport Brisbane Airport Drive",
+    "Suburb": "Brisbane Airport",
+    "Start of exposure": "7.50pm",
+    "End of exposure": "8.30pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "IGA Pullenvale 8 McCaskill Road",
+    "Suburb": "Pullenvale",
+    "Start of exposure": "8.15pm",
+    "End of exposure": "8.35pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Passengers in Cairns Taxis (Excluding Maxi Cabs) Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "10.30pm",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Suite 10/621 Coronation Dr Toowong (except Hall Property Solution unit) 10/621 Coronation Dr",
+    "Suburb": "Toowong",
+    "Start of exposure": "8.30am",
+    "End of exposure": "11.40am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Female Toilet, 2nd Floor, 10/621 Coronation Dr Toowong 10/621 Coronation Dr",
+    "Suburb": "Toowong",
+    "Start of exposure": "8.30am",
+    "End of exposure": "11.30am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Hall Property Solution Unit 2nd Floor, 10/621 Coronation Dr",
+    "Suburb": "Toowong",
+    "Start of exposure": "8.30am",
+    "End of exposure": "11.40am"
+  },
+  {
+    "Date": "Friday 30 July 2021",
+    "Place": "Ampol Foodary Southport 152 Smith St Cnr, Kumbari Ave",
+    "Suburb": "Southport",
+    "Start of exposure": "9.40am",
+    "End of exposure": "10am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Passengers in Cairns Taxis (Excluding Maxi Cabs) Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "12am",
+    "End of exposure": "1pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Park Run at Rocks Riverside Park 531 Seventeen Mile Rocks Rd",
+    "Suburb": "Seventeen Mile Rocks",
+    "Start of exposure": "6.45am",
+    "End of exposure": "8.30am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "New Field, Churchie Sporting Fields Anglican Church Grammar School, Oaklands Parade",
+    "Suburb": "East Brisbane",
+    "Start of exposure": "7am",
+    "End of exposure": "10am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Churchie Sporting Fields – other than New Field Anglican Church Grammar School, Oaklands Parade",
+    "Suburb": "East Brisbane",
+    "Start of exposure": "7am",
+    "End of exposure": "10am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Blu Marlin Bistro, Pier Cairns 1 Spence St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "8am",
+    "End of exposure": "9am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Reef Fleet Terminal Pier Cairns 1 Spence St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "8am",
+    "End of exposure": "9am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Japanese Language Supplementary School, held at St Aidan’s Anglican Girls’ School 11 Ruthven St",
+    "Suburb": "Corinda",
+    "Start of exposure": "8.15am",
+    "End of exposure": "1pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Taringa Rovers Soccer Club Jack Speare Park",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "8.20am",
+    "End of exposure": "9.40am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Lions Rugby Union Club (unless contacted directly by Metro North Public Health Unit) Cairns Cowan Dr",
+    "Suburb": "Karana Downs",
+    "Start of exposure": "8.30am",
+    "End of exposure": "10am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Reef Magic II Ferry to Fitzroy Island Cairns Marlin Marina, 1 Spence St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "9am",
+    "End of exposure": "10am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "DNA Expresso Bar (Patrons) IGA Marketplace St Lucia, 240 Hawken Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "9am",
+    "End of exposure": "9.10am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "The Gap Football Club House - Outside 23A Glen Affric Street",
+    "Suburb": "The Gap",
+    "Start of exposure": "9.15am",
+    "End of exposure": "9.30am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "The Gap Football Club House - Inside 23A Glen Affric Street",
+    "Suburb": "The Gap",
+    "Start of exposure": "9.15am",
+    "End of exposure": "9.45am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "The Gap Football Club Field 2 23A Glen Affric Street",
+    "Suburb": "The Gap",
+    "Start of exposure": "9.15am",
+    "End of exposure": "11.15am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Court 22 - Western Districts Netball Association, Faulkner Park, Waratah Ave",
+    "Suburb": "Graceville",
+    "Start of exposure": "9.45am",
+    "End of exposure": "11.30am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Courts 21, 23 & 24 - Western Districts Netball Association Faulkner Park, Waratah Ave",
+    "Suburb": "Graceville",
+    "Start of exposure": "9.45am",
+    "End of exposure": "11.30am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Fitzroy Island Fitzroy Island",
+    "Suburb": "Fitzroy Island",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Kenmore Holy Spirit Anglican Church – Memorial Service 1036 Moggill Road",
+    "Suburb": "Kenmore",
+    "Start of exposure": "10am",
+    "End of exposure": "11.30am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "UQ Playground St Lucia Sir William MacGregor Drive",
+    "Suburb": "St Lucia",
+    "Start of exposure": "10am",
+    "End of exposure": "11am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Eleanor Schonell Bridge Cable-stayed bridge in St Lucia",
+    "Suburb": "St Lucia",
+    "Start of exposure": "10am",
+    "End of exposure": "11am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "TOMRA recycling centre west end 281 Montague Rd",
+    "Suburb": "West End",
+    "Start of exposure": "10am",
+    "End of exposure": "11.05am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Indooroopilly Shopping Centre 322 Moggill Rd",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10.01am",
+    "End of exposure": "11.10am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "JB-HiFi Indooroopilly Shopping Centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10.05am",
+    "End of exposure": "10.15am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "The Gap Football Club Field 2 Under 12's Norths vs Under 12's Grange 23A Glen Affric Street",
+    "Suburb": "The Gap",
+    "Start of exposure": "10.10am",
+    "End of exposure": "11am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Mr Toys Toyworld Indooroopilly Shopping Centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10.16am",
+    "End of exposure": "10.26am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Coles Indooroopilly Shopping Centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10.28am",
+    "End of exposure": "11.10am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Stafford City Shopping Centre - Food Court 400 Stafford Road.",
+    "Suburb": "Stafford",
+    "Start of exposure": "10.30am",
+    "End of exposure": "11.20am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "DJ Supercuts Shop 1/77 Sir Fred Schonell Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "10.40am",
+    "End of exposure": "11.15am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "McDonalds Indooroopilly 78-80 Coonan St",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "10.40am",
+    "End of exposure": "10.50am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "ALDI - The Gap Village Shop 40/1000 Waterworks Rd",
+    "Suburb": "The Gap",
+    "Start of exposure": "11am",
+    "End of exposure": "12pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Stafford City Shopping Centre 400 Stafford Road.",
+    "Suburb": "Stafford",
+    "Start of exposure": "11am",
+    "End of exposure": "11.20am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Indooroopilly Shopping Centre 322 Moggill Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "11.15am",
+    "End of exposure": "12.50pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Mick's Nuts 31 Hardgrave Rd",
+    "Suburb": "West End",
+    "Start of exposure": "11.19am",
+    "End of exposure": "11.30am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "St Lucia Pharmacy 26 Hawken Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "11.20am",
+    "End of exposure": "11.30am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Hanaromart Level 1, Indooroopilly Shopping centre, 322 Moggill Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "11.25am",
+    "End of exposure": "11.50am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Indooroopilly Shopping Centre 322 Moggill Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "11.27am",
+    "End of exposure": "12.50pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Coles Hyperdome Shopping Centre, Corner Pacific Highway and Bryants Rd",
+    "Suburb": "Loganholme",
+    "Start of exposure": "11.30am",
+    "End of exposure": "1.15pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Hyperdome Shopping Centre Corner Pacific Highway and Bryants Rd",
+    "Suburb": "Loganholme",
+    "Start of exposure": "11.30am",
+    "End of exposure": "1.20pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Coffee mentality West End Markets, Davies Park",
+    "Suburb": "West End",
+    "Start of exposure": "11.30am",
+    "End of exposure": "11.40am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "West End Markets Montague Rd &, Jane St",
+    "Suburb": "West End",
+    "Start of exposure": "11.34am",
+    "End of exposure": "12.15pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Fresh berries direct West End Markets, Davies Park",
+    "Suburb": "West End",
+    "Start of exposure": "11.40am",
+    "End of exposure": "11.50am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Izakaya Sushu Level 1, Indooroopilly Shopping centre, 322 Moggill Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "11.40am",
+    "End of exposure": "12.05pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "M.Y. Roasting Café 82 Hyde Rd",
+    "Suburb": "Yeronga",
+    "Start of exposure": "11.45am",
+    "End of exposure": "1.15pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Toowong Fish Market Shop 4/530 Milton Rd",
+    "Suburb": "Toowong",
+    "Start of exposure": "11.50am",
+    "End of exposure": "12.20pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "McDonalds Indooroopilly 78-80 Coonan Street",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "11.50am",
+    "End of exposure": "12pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Izakaya Sushi Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "11.50am",
+    "End of exposure": "12.05pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Charlie fruit and Veg West End Markets, Davies Park",
+    "Suburb": "West End",
+    "Start of exposure": "11.50am",
+    "End of exposure": "11.55am"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Seafood Direct Butcher Boy Meats (Trade Winds Seafood Runaway Bay) West End Markets, Davies Park",
+    "Suburb": "West End",
+    "Start of exposure": "11.55am",
+    "End of exposure": "12.05pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Kmart Level 1, Indooroopilly Shopping centre, 322 Moggill Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "11.55am",
+    "End of exposure": "12.15pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "ALDI Indooroopilly Shopping Centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "11.57am",
+    "End of exposure": "12.38pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Fitness First Indooroopilly Shopping Centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "12pm",
+    "End of exposure": "3.30pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "BCC Library Level 4, Indooroopilly Shopping centre, 322 Moggill Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "12pm",
+    "End of exposure": "12.50pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Kmart Indooroopilly shopping centre",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "12.05pm",
+    "End of exposure": "12.15pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Juicy Choice West End Markets, Davies Park",
+    "Suburb": "West End",
+    "Start of exposure": "12.05pm",
+    "End of exposure": "12.15pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Suite 10/621 Coronation Dr Toowong (except Hall Property Solution unit) 10/621 Coronation Dr",
+    "Suburb": "Toowong",
+    "Start of exposure": "12.15pm",
+    "End of exposure": "12.50pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Keperra Retirement Village - First set of low set villas on the right entrance of the complex 998 Samford Road",
+    "Suburb": "Keperra",
+    "Start of exposure": "12.30pm",
+    "End of exposure": "3.30pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Christie Spaces 320 Adelaide Street",
+    "Suburb": "Brisbane City",
+    "Start of exposure": "12.45pm",
+    "End of exposure": "1pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Robins Kitchen Hyperdome Shopping Centre, Corner Pacific Highway and Bryants Rd",
+    "Suburb": "Loganholme",
+    "Start of exposure": "12.55pm",
+    "End of exposure": "1.15pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Earth Markets Hyperdome Shopping Centre, Corner Pacific Highway and Bryants Rd",
+    "Suburb": "Loganholme",
+    "Start of exposure": "1pm",
+    "End of exposure": "1.20pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "St Aidan’s Anglican Girls’ School 11 Ruthven St",
+    "Suburb": "Corinda",
+    "Start of exposure": "1pm",
+    "End of exposure": "4pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Liqourland Ironside (Patrons) Shop 3, 28 Hawken Street",
+    "Suburb": "St Lucia",
+    "Start of exposure": "1.15pm",
+    "End of exposure": "1.20pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Ampol Foodary 78–80 Bryants Rd",
+    "Suburb": "Loganholme",
+    "Start of exposure": "1.15pm",
+    "End of exposure": "1.35pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Guzman y Gomez Shop 1 / 18 Stamford Road",
+    "Suburb": "Indooroopilly",
+    "Start of exposure": "3.20pm",
+    "End of exposure": "3.40pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Reef Magic II Ferry to Cairns Fitzroy Island Jetty",
+    "Suburb": "Fitzroy Island",
+    "Start of exposure": "3.45pm",
+    "End of exposure": "4.30pm"
+  },
+  {
+    "Date": "Saturday 31 July 2021",
+    "Place": "Passengers in Cairns Taxis (Excluding Maxi Cabs) Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "10.30pm",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Sunday 1 August 2021",
+    "Place": "Passengers in Cairns Taxis (Excluding Maxi Cabs) Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "12am",
+    "End of exposure": "1pm"
+  },
+  {
+    "Date": "Sunday 1 August 2021",
+    "Place": "Woolworths – Lake Street Entrance – Tobacco Sales Counter 103 Abbott St",
+    "Suburb": "Cairns City",
+    "Start of exposure": "8.39am",
+    "End of exposure": "8.57am"
+  },
+  {
+    "Date": "Sunday 1 August 2021",
+    "Place": "Hidden Café 12-14 Deauville Close",
+    "Suburb": "Yorkeys Knob",
+    "Start of exposure": "10am",
+    "End of exposure": "12.15pm"
+  },
+  {
+    "Date": "Sunday 1 August 2021",
+    "Place": "Passengers in Cairns Taxis (Excluding Maxi Cabs) Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "10.30pm",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Monday 2 August 2021",
+    "Place": "Passengers in Cairns Taxis (Excluding Maxi Cabs) Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "12am",
+    "End of exposure": "3pm"
+  },
+  {
+    "Date": "Monday 2 August 2021",
+    "Place": "Bluewater Village Early Learning 1 Maritime Way",
+    "Suburb": "Trinity Beach",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Monday 2 August 2021",
+    "Place": "Chemist Warehouse 70 Bryants Rd",
+    "Suburb": "Shailer Park",
+    "Start of exposure": "2.30pm",
+    "End of exposure": "3.05pm"
+  },
+  {
+    "Date": "Monday 2 August 2021",
+    "Place": "Passengers in Cairns Taxis (Excluding Maxi Cabs) Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "10.30pm",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Monday 2 August 2021",
+    "Place": "Hawken Drive Pharmacy 26 Hawken Dr",
+    "Suburb": "St Lucia",
+    "Start of exposure": "8.13am",
+    "End of exposure": "8.20am"
+  },
+  {
+    "Date": "Tuesday 3 August 2021",
+    "Place": "Passengers in Cairns Taxis (Excluding Maxi Cabs) Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "12am",
+    "End of exposure": "3pm"
+  },
+  {
+    "Date": "Tuesday 3 August 2021",
+    "Place": "Bluewater Village Early Learning 1 Maritime Way",
+    "Suburb": "Trinity Beach",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Tuesday 3 August 2021",
+    "Place": "Raintrees Shopping Centre Cnr Alfred & Koch Streets",
+    "Suburb": "Manunda",
+    "Start of exposure": "3.15pm",
+    "End of exposure": "4pm"
+  },
+  {
+    "Date": "Tuesday 3 August 2021",
+    "Place": "Woolworths Raintrees 1 Koch Street",
+    "Suburb": "Manunda",
+    "Start of exposure": "3.25pm",
+    "End of exposure": "3.40pm"
+  },
+  {
+    "Date": "Tuesday 3 August 2021",
+    "Place": "Raintrees Tavern Alfred Street",
+    "Suburb": "Manunda",
+    "Start of exposure": "4pm",
+    "End of exposure": "4.30pm"
+  },
+  {
+    "Date": "Wednesday 4 August 2021",
+    "Place": "Hancock Street Car Park P1 Hancock Street",
+    "Suburb": "South Brisbane",
+    "Start of exposure": "7.30am",
+    "End of exposure": "8.30am"
+  },
+  {
+    "Date": "Wednesday 4 August 2021",
+    "Place": "Passengers in Cairns Taxis Various locations",
+    "Suburb": "Cairns Taxis",
+    "Start of exposure": "12am",
+    "End of exposure": "11.59pm"
+  },
+  {
+    "Date": "Wednesday 4 August 2021",
+    "Place": "Woolworths Raintrees 1 Koch Street",
+    "Suburb": "Manunda",
+    "Start of exposure": "2.30pm",
+    "End of exposure": "3.30pm"
+  },
+  {
+    "Date": "Wednesday 4 August 2021",
+    "Place": "Raintrees Tavern Alfred Street",
+    "Suburb": "Manunda",
+    "Start of exposure": "3.30pm",
+    "End of exposure": "4.30pm"
+  },
+  {
+    "Date": "Thursday 5 August 2021",
+    "Place": "Café China on Mulgrave Road 79 Mulgrave Road",
+    "Suburb": "Parramatta Park",
+    "Start of exposure": "11.40am",
+    "End of exposure": "12.40pm"
+  },
+  {
+    "Date": "Thursday 5 August 2021",
+    "Place": "Gaming Lounge and adjacent smoking area, toilets and ATM, Brothers Leagues Club 99-107 Anderson Street",
+    "Suburb": "Manunda",
+    "Start of exposure": "12.35pm",
+    "End of exposure": "3.40pm"
+  }
+]
