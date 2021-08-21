@@ -71,7 +71,7 @@ function DashboardItems(props) {
   let wastewaterLocations = [];
 
   React.useEffect(()=> {
-    wastewaterLocations = fetch('http://localhost/api/wastewater/qld')
+    wastewaterLocations = fetch('/api/wastewater/qld')
       .then((res) => res.json())
       .then((res) => { setWasteWaterItems(res); setStatus(true);} )
   }, [])
