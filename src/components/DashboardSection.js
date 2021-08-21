@@ -153,16 +153,6 @@ function DashboardSection(props) {
               </CardContent>
             </Card>
             <br />
-            <Card>
-              <CardContent className={classes.cardContent}>
-                <Typography variant="h6" paragraph={true}>
-                  <strong>Content</strong>
-                </Typography>
-                <Typography paragraph={true}>Content</Typography>
-
-              </CardContent>
-            </Card>
-            <br/>
             {testingSites && <Card>
               <CardContent className={classes.cardContent}>
                 <Typography variant="h6" paragraph={true}>
