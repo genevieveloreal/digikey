@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import Box from "@material-ui/core/Box";
 import Alert from "@material-ui/lab/Alert";
 import Paper from "@material-ui/core/Paper";
@@ -8,13 +8,16 @@ import Divider from "@material-ui/core/Divider";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
+import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import IconButton from "@material-ui/core/IconButton";
-import StarIcon from "@material-ui/icons/Star";
+import VpnKeyIcon from "@material-ui/icons/VpnKey";
 import EditIcon from "@material-ui/icons/Edit";
 import DeleteIcon from "@material-ui/icons/Delete";
+import MyLocationIcon from "@material-ui/icons/MyLocation";
 import EditItemModal from "./EditItemModal";
+import { spacing } from '@material-ui/system';
 import { useAuth } from "./../util/auth.js";
 import { updateItem, deleteItem, useItemsByOwner } from "./../util/db.js";
 import { makeStyles } from "@material-ui/core/styles";
@@ -38,14 +41,38 @@ function DashboardItems(props) {
   const auth = useAuth();
 
   const [creatingItem, setCreatingItem] = useState(false);
-
   const [updatingItemId, setUpdatingItemId] = useState(null);
+
+  let items = [
+    { id: 1, title: "Name", info: "test", featured: false },
+    { id: 2, title: "Address", info: "test", featured: false },
+    { id: 3, title: "Phone number", info: "test", featured: false },
+    { id: 4, title: "Vaccination data", info: "test", featured: false },
+    { id: 5, title: "TFN", info: "test", featured: false }
+  ];
+
+  const [dataItems, setDataItems] = useState(items);
+
+  const deleteItem = (id) => {
+    const newItems = dataItems.filter(item => item.id !== id);
+    setDataItems(newItems);
+  };
+
+  const createItem = (data) => {
+    const newItems = dataItems;
+    newItems.push(data);
+    setDataItems(newItems);
+    setCreatingItem(false);
+  };
+
+  const dataItemsLength = dataItems.length;
 
   return (
     <>
       <Box mb={3}>
-        <Alert severity="error">Alert!</Alert>
-        <Alert severity="warning">Warning!</Alert>
+        <Alert severity="error">You recently visited <strong>Bunnings Newmarket</strong> on <strong>21 August 2021 (11:05AM)</strong>. Please get tested at your nearest COVID-19 testing location.</Alert>
+        <br />
+        <Alert severity="warning">COVID-19 has been detected in your area. Stay safe and if you have any symptoms, please get tested.</Alert>
       </Box>
       <Paper className={classes.paperItems}>
         <Box
@@ -54,7 +81,7 @@ function DashboardItems(props) {
           alignItems="center"
           padding={2}
         >
-          <Typography variant="h5">My Data</Typography>
+          <Typography variant="h5">Your DigiKey Data</Typography>
           <Button
             variant="contained"
             size="medium"
@@ -65,9 +92,39 @@ function DashboardItems(props) {
           </Button>
         </Box>
         <Divider />
+        {dataItems && dataItems.length > 0 && (
+          <List variant="flush">
+            <ListItem>
+              <ListItemIcon>
+                <MyLocationIcon />
+              </ListItemIcon>
+              <ListItemText><strong>Current Location: {props.locationState}</strong></ListItemText>
+            </ListItem>
+            <Divider />
+            {dataItems.map((item, index) => (
+              <ListItem key={index}>
+                <ListItemIcon>
+                  <VpnKeyIcon />
+                </ListItemIcon>
+                  <ListItemText>{item.title}</ListItemText>
+                  <Box>
+                    <Button button color="primary" variant="outlined">
+                      <EditIcon />
+                    </Button>
+                  </Box>
+                  <Box ml={1}>
+                    <Button button color="secondary" variant="outlined" ml={2} onClick={() => deleteItem(item.id)}>
+                      <DeleteIcon />
+                    </Button>
+                  </Box>
+                <Divider />
+              </ListItem>
+            ))}
+          </List>
+        )}
       </Paper>
 
-      {creatingItem && <EditItemModal onDone={() => setCreatingItem(false)} />}
+      {creatingItem && <EditItemModal dataItemsLength={dataItemsLength} saveNewDataCallback={createItem} onDone={() => setCreatingItem(false)} />}
 
       {updatingItemId && (
         <EditItemModal

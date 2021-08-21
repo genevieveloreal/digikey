@@ -54,14 +54,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("sm")]: {
       justifyContent: "flex-end",
     },
-  },
-  // Move links to end (bottom right)
-  // Swaps position with social
-  smallLinks: {
-    [theme.breakpoints.up("sm")]: {
-      order: 1,
-    },
-  },
+  }
 }));
 
 function Footer(props) {
@@ -103,33 +96,6 @@ function Footer(props) {
               </Link>
             </Typography>
           </div>
-          <div className={`${classes.item} ${classes.right} ${classes.social}`}>
-            <a
-              href="https://twitter.com/divjoy"
-              target="_blank"
-              rel="noreferrer"
-              className={classes.link}
-            >
-              <TwitterIcon fontSize="small" />
-            </a>
-            <a
-              href="https://facebook.com/DivjoyOfficial"
-              target="_blank"
-              rel="noreferrer"
-              className={classes.link}
-            >
-              <FacebookIcon fontSize="small" />
-            </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noreferrer"
-              className={classes.link}
-            >
-              <InstagramIcon fontSize="small" />
-            </a>
-          </div>
-
           {props.copyright && (
             <div className={`${classes.item} ${classes.left}`}>
               <Typography component="p">{props.copyright}</Typography>

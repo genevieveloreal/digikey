@@ -40,19 +40,6 @@ function Auth(props) {
               <Box textAlign="center" fontSize={12} my={2}>
                 OR
               </Box>
-              <AuthSocial
-                type={props.type}
-                buttonText={props.typeValues.buttonText}
-                providers={props.providers}
-                showLastUsed={true}
-                onAuth={handleAuth}
-                onError={(message) => {
-                  handleFormAlert({
-                    type: "error",
-                    message: message,
-                  });
-                }}
-              />
             </>
           )}
 

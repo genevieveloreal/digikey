@@ -8,7 +8,6 @@ import Grid from "@material-ui/core/Grid";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import CircularProgress from "@material-ui/core/CircularProgress";
-import { useAuth } from "./../util/auth.js";
 import { useForm } from "react-hook-form";
 import { useItem, updateItem, createItem } from "./../util/db.js";
 import { makeStyles } from "@material-ui/core/styles";
@@ -22,7 +21,6 @@ const useStyles = makeStyles((theme) => ({
 function EditItemModal(props) {
   const classes = useStyles();
 
-  const auth = useAuth();
   const [pending, setPending] = useState(false);
   const [formAlert, setFormAlert] = useState(null);
 
@@ -40,31 +38,10 @@ function EditItemModal(props) {
   }
 
   const onSubmit = (data) => {
-    setPending(true);
-
-    const query = props.id
-      ? updateItem(props.id, data)
-      : createItem({ owner: auth.user.uid, ...data });
-
-    query
-      .then(() => {
-        // Let parent know we're done so they can hide modal
-        props.onDone();
-      })
-      .catch((error) => {
-        // Hide pending indicator
-        setPending(false);
-        // Show error alert message
-        setFormAlert({
-          type: "error",
-          message: error.message,
-        });
-      });
+    // This is literally the worst
+    const newId = props.dataItemsLength + 1;
+    props.saveNewDataCallback({ id: newId, ...data });
   };
-
-  const saveData = () => {
-    console.log("save data")
-  }
 
   return (
     <Dialog open={true} onClose={props.onDone}>
@@ -83,18 +60,34 @@ function EditItemModal(props) {
         <form onSubmit={handleSubmit(onSubmit)}>
           <Grid container={true} spacing={3}>
             <Grid item={true} xs={12}>
+              <Box mb={1}>
+                <TextField
+                  variant="outlined"
+                  type="text"
+                  label="Title"
+                  name="title"
+                  defaultValue={itemData && itemData.name}
+                  error={errors.name ? true : false}
+                  helperText={errors.name && errors.name.message}
+                  fullWidth={true}
+                  autoFocus={true}
+                  inputRef={register({
+                    required: "Please enter your data title",
+                  })}
+                />
+              </Box>
               <TextField
                 variant="outlined"
                 type="text"
-                label="Name"
-                name="name"
+                label="Info"
+                name="info"
                 defaultValue={itemData && itemData.name}
                 error={errors.name ? true : false}
                 helperText={errors.name && errors.name.message}
                 fullWidth={true}
                 autoFocus={true}
                 inputRef={register({
-                  required: "Please enter a name",
+                  required: "Please enter your data info",
                 })}
               />
             </Grid>
@@ -104,7 +97,7 @@ function EditItemModal(props) {
                 color="primary"
                 size="large"
                 disabled={pending}
-                onClick={saveData}
+                type="submit"
               >
                 {!pending && <span>Save</span>}
 

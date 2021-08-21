@@ -12,6 +12,8 @@ import NotFoundPage from "./not-found.js";
 import Footer from "./../components/Footer";
 import "./../util/analytics.js";
 import { ThemeProvider } from "./../util/theme.js";
+import logo from "../images/logo-transparent.png";
+import logoNightmode from "../images/logo-transparent-nightmode.png";
 
 function App(props) {
   return (
@@ -20,8 +22,8 @@ function App(props) {
         <>
           <Navbar
             color="default"
-            logo="https://uploads.divjoy.com/logo.svg"
-            logoInverted="https://uploads.divjoy.com/logo-white.svg"
+            logo={logo}
+            logoInverted={logoNightmode}
           />
 
           <Switch>
@@ -49,8 +51,8 @@ function App(props) {
             bgImageOpacity={1}
             description="A short description of what you do here"
             copyright={`© ${new Date().getFullYear()} DigiKey`}
-            logo="https://uploads.divjoy.com/logo.svg"
-            logoInverted="https://uploads.divjoy.com/logo-white.svg"
+            logo={logo}
+            logoInverted={logoNightmode}
             sticky={true}
           />
         </>

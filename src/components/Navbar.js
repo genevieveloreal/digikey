@@ -24,7 +24,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   logo: {
-    height: 28,
+    height: 80,
     marginRight: theme.spacing(2),
   },
   drawerList: {
