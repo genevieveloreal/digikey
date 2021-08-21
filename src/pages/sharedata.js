@@ -14,6 +14,9 @@ import Section from "../components/Section";
 import Switch from '@material-ui/core/Switch';
 import Typography from "@material-ui/core/Typography";
 import transfer from "../images/transfer.png";
+import transferData from "../images/key-dots.gif";
+import userImage from "../images/user.png";
+import locationImage from "../images/location.png";
 
 function ShareDataPage(props) {
   let items = [
@@ -47,7 +50,15 @@ function ShareDataPage(props) {
         <Typography variant="h6" component="p">You are about to check-in with</Typography>
         <Typography variant="h5" component="p"><strong>Bunnings Carseldine</strong></Typography>
         <br />
-        <img src={transfer} width="300px" />
+        <Box alignItems="center" display="flex" justifyContent="center">
+          <Box mr={1}>
+            <img src={userImage} width="80px"/>
+          </Box>
+          <img src={transferData} height="30px" width="160px" />
+          <Box ml={1}>
+            <img src={locationImage} width="80px"/>
+          </Box>
+        </Box>
         <br />
         <br />
         <br />
