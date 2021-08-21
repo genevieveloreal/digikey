@@ -4,6 +4,7 @@ import Container from "@material-ui/core/Container";
 import SectionHeader from "./SectionHeader";
 import Box from "@material-ui/core/Box";
 import Alert from "@material-ui/lab/Alert";
+import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import DashboardItems from "./DashboardItems";
 import Card from "@material-ui/core/Card";
@@ -102,11 +103,18 @@ function DashboardSection(props) {
                       </Select>
                     </div>
                     <br/>
-                    <div>
-                      We've detected there are currently COVID-19 restrictions in place in your local area.
-                    </div>
                   </Typography>
                 </Box>
+              </CardContent>
+            </Card>
+            <br />
+            <Card>
+              <CardContent className={classes.cardContent}>
+                <Typography variant="h6" paragraph={true}>
+                  <strong>Check-in</strong>
+                </Typography>
+                <Typography paragraph={true}>Check-in now by clicking the button below. You'll be able to select which data keys you share.</Typography>
+                <Button button color="primary" variant="contained" size="large" href="/checkin">Check-in Now</Button>
               </CardContent>
             </Card>
           </Grid>

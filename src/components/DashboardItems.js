@@ -108,12 +108,12 @@ function DashboardItems(props) {
                 </ListItemIcon>
                   <ListItemText>{item.title}</ListItemText>
                   <Box>
-                    <Button button color="primary" variant="outlined">
+                    <Button button color="primary" variant="contained">
                       <EditIcon />
                     </Button>
                   </Box>
                   <Box ml={1}>
-                    <Button button color="secondary" variant="outlined" ml={2} onClick={() => deleteItem(item.id)}>
+                    <Button button color="secondary" variant="contained" ml={2} onClick={() => deleteItem(item.id)}>
                       <DeleteIcon />
                     </Button>
                   </Box>

@@ -3,6 +3,7 @@ import Navbar from "./../components/Navbar";
 import IndexPage from "./index";
 import AboutPage from "./about";
 import FaqPage from "./faq";
+import CheckInPage from "./checkin";
 import ContactPage from "./contact";
 import DashboardPage from "./dashboard";
 import SettingsPage from "./settings";
@@ -36,6 +37,8 @@ function App(props) {
             <Route exact path="/contact" component={ContactPage} />
 
             <Route exact path="/dashboard" component={DashboardPage} />
+
+            <Route exact path="/checkin" component={CheckInPage} />
 
             <Route exact path="/settings/:section" component={SettingsPage} />
 
