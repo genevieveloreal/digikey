@@ -20,17 +20,33 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
+import {
+  Paper,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead, TablePagination,
+  TableRow
+} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   cardContent: {
     padding: theme.spacing(3),
   },
+  root: {
+    width: '100%',
+  },
+  container: {
+    maxHeight: 880,
+  },
 
 }));
 
 function ContactTracingSection(props) {
-  const classes = useStyles();
   const router = useRouter();
+  const classes = useStyles();
+
 
 
   const states = {
@@ -50,6 +66,49 @@ function ContactTracingSection(props) {
     const newLocationState = event.target.value;
     setLocationState(states[newLocationState]);
   };
+
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(20);
+  const [suburbName, setSuburbName] = useState("");
+  const [rowData, setRowData] = useState([]);
+
+  const handleChangePage = (event, newPage) => {
+    setPage(newPage);
+  };
+
+  const handleChangeRowsPerPage = (event) => {
+    setRowsPerPage(+event.target.value);
+    setPage(0);
+  };
+
+  const tableHead = [
+    { id: 'date', label: 'Date', midWidth: 170},
+    { id: 'place', label: 'Place', midWidth: 170},
+    { id: 'suburb', label: 'Suburb', midWidth: 170},
+    { id: 'start', label: 'Start of Exposure', midWidth: 170},
+    { id: 'end', label: 'End of Exposure', midWidth: 170},
+  ]
+
+  const createTableDate = (row) => {
+    return {
+      date: row['Date'],
+      place: row['Place'],
+      suburb: row['Suburb'],
+      start: row['Start of exposure'],
+      end: row['End of exposure']
+    }
+  }
+
+
+
+  useEffect(() => {
+    fetch(`https://bigsunday.com.au/api/tracing/${locationState.toLowerCase()}/mel`)
+      .then((res) => res.json())
+      .then((data) => {
+        const fetchedRowData = data.map((row) => createTableDate(row));
+        setRowData(fetchedRowData);
+      })
+  }, [locationState])
 
   return (
     <Section
@@ -97,7 +156,50 @@ function ContactTracingSection(props) {
 
           </Grid>
           <Grid item={true} xs={12} md={12}>
-
+            <Paper className={classes.root}>
+              <TableContainer className={classes.container}>
+                <Table stickyHeader aria-label="sticky table">
+                  <TableHead>
+                    <TableRow>
+                      {tableHead.map((column) => (
+                        <TableCell
+                          key={column.id}
+                          align={column.align}
+                          style={{ minWidth: column.minWidth }}
+                        >
+                          {column.label}
+                        </TableCell>
+                      ))}
+                    </TableRow>
+                  </TableHead>
+                  <TableBody>
+                    {rowData.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row) => {
+                      return (
+                        <TableRow hover role="checkbox" tabIndex={-1} key={row.code}>
+                          {tableHead.map((column) => {
+                            const value = row[column.id];
+                            return (
+                              <TableCell key={column.id} align={column.align}>
+                                {column.format && typeof value === 'number' ? column.format(value) : value}
+                              </TableCell>
+                            );
+                          })}
+                        </TableRow>
+                      );
+                    })}
+                  </TableBody>
+                </Table>
+              </TableContainer>
+              <TablePagination
+                rowsPerPageOptions={[10, 25, 100]}
+                component="div"
+                count={rowData.length}
+                rowsPerPage={rowsPerPage}
+                page={page}
+                onChangePage={handleChangePage}
+                onChangeRowsPerPage={handleChangeRowsPerPage}
+              />
+            </Paper>
           </Grid>
         </Grid>
       </Container>
