@@ -84,7 +84,7 @@ Stay safe and stay healthy. See you next year ✨
 
 👨‍💻 [Aaron Charlton](https://github.com/charltona) | Full Stack Developer
 
-👨‍🎨 [Ivan von Christ](https://github.com/ivonchrist) | UX/UI & Video Designer
+👨‍🎨 [Ivan von Christ](https://github.com/ivanvonchrist) | UX/UI & Video Designer
 
 👩‍💻 [Genevieve Carter](https://github.com/genevieveloreal) | Web Developer
 
