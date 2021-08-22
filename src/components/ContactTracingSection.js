@@ -110,7 +110,7 @@ function ContactTracingSection(props) {
 
   useEffect(() => {
     const query = suburbName ? suburbName.toLowerCase() : ''; // work around for endpoint being crap.
-    fetch(`http://localhost/api/tracing/${locationState.toLowerCase()}/${query}`)
+    fetch(`/api/tracing/${locationState.toLowerCase()}/${query}`)
       .then((res) => res.json())
       .then((data) => {
         const fetchedRowData = data.map((row) => createTableDate(row));
