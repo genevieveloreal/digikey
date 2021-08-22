@@ -102,39 +102,39 @@ function DashboardSection(props) {
             <DashboardItems locationState={locationState} />
           </Grid>
           <Grid item={true} xs={12} md={6}>
-            <Card>
-              <CardContent className={classes.cardContent}>
-                <Box>
+            <Box mb={2}>
+              <Card>
+                <CardContent className={classes.cardContent}>
                   <Typography variant="h6" paragraph={true}>
-                    <strong>Welcome back, Govhacker!</strong>
+                    <strong>Secure Check-in ✔️</strong>
                   </Typography>
-                  <Typography paragraph={true}>
-                    Your DigiKey account gives you control over your data, including what you share and who you share it with.
-                  </Typography>
+                  <Typography paragraph={true}>DigiKey Secure ID allows you to share your personal information with Government and Business entities. Select which data you'd like to share when signing in securely. You can see which organisations have access to your data on the My Data page.</Typography>
                   <Box mt={2}>
                     <Button button color="primary" variant="contained" size="large" href="/checkin">Check-in Now</Button>
                   </Box>
-                </Box>
-                <Box mt={3}>
+                </CardContent>
+              </Card>
+            </Box>
+            <Card>
+              <CardContent>
+                <Box>
                   <Typography variant="h6" paragraph={true}>
                     <strong><MyLocationIcon /> Location</strong>
-                    <Typography paragraph={true}>Your location is {locationState}. Planning travel? Change your state to view the current restrictions and more information.</Typography>
                   </Typography>
-                  <Typography component="div">
-                    <div>
-                      <Select labelId="label" id="select" onChange={handleLocationStateChange} value={locationState}>
-                        <MenuItem value="ACT">ACT</MenuItem>
-                        <MenuItem value="NSW">NSW</MenuItem>
-                        <MenuItem value="NT">NT</MenuItem>
-                        <MenuItem value="QLD">QLD</MenuItem>
-                        <MenuItem value="SA">SA</MenuItem>
-                        <MenuItem value="TAS">TAS</MenuItem>
-                        <MenuItem value="VIC">VIC</MenuItem>
-                        <MenuItem value="WA">WA</MenuItem>
-                      </Select>
-                    </div>
-                    <br/>
-                  </Typography>
+                  <Typography paragraph={true}>Your location is {locationState}. Planning travel? Change your state to view the current restrictions and more information.</Typography>
+                  <div>
+                    <Select labelId="label" id="select" onChange={handleLocationStateChange} value={locationState}>
+                      <MenuItem value="ACT">ACT</MenuItem>
+                      <MenuItem value="NSW">NSW</MenuItem>
+                      <MenuItem value="NT">NT</MenuItem>
+                      <MenuItem value="QLD">QLD</MenuItem>
+                      <MenuItem value="SA">SA</MenuItem>
+                      <MenuItem value="TAS">TAS</MenuItem>
+                      <MenuItem value="VIC">VIC</MenuItem>
+                      <MenuItem value="WA">WA</MenuItem>
+                    </Select>
+                  </div>
+                  <br/>
                 </Box>
                 <Box>
                   <List variant="flush">

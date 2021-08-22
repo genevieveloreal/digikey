@@ -1,6 +1,8 @@
 import React, { useState, Fragment } from "react";
 import Box from "@material-ui/core/Box";
 import Alert from "@material-ui/lab/Alert";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
@@ -86,10 +88,22 @@ function DashboardItems(props) {
 
   return (
     <>
-      <Box mb={3}>
+      <Box mb={1}>
          <Alert severity="error">You recently visited <strong>Bunnings Newmarket</strong> on <strong>21 August 2021 (11:05AM)</strong>. Please get tested at your nearest COVID-19 testing location.</Alert>
         <br />
         { props.locationState === "QLD" && status &&  <Alert severity="warning">COVID-19 has been detected in your area ({ lastLocation.Site }). Stay safe and if you have any symptoms, please get tested.</Alert> }
+      </Box>
+      <Box mb={2}>
+        <Card>
+          <CardContent>
+            <Typography variant="h6" paragraph={true}>
+              <strong>Welcome back, Govhacker!</strong>
+            </Typography>
+            <Typography>
+              Your DigiKey account gives you control over your data, including what you share and who you share it with.
+            </Typography>
+          </CardContent>
+        </Card>
       </Box>
       <Paper className={classes.paperItems}>
         <Box

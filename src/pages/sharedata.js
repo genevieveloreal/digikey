@@ -65,7 +65,7 @@ const classes = useStyles();
     >
       <Container>
         <Typography variant="h6" component="p">You are about to check-in with</Typography>
-        <Typography variant="h5" component="p"><strong>Bunnings Carseldine</strong></Typography>
+        <Typography variant="h5" component="p" color="secondary"><strong>Bunnings Carseldine</strong></Typography>
         <br />
         <Box alignItems="center" display="flex" justifyContent="center">
           <Box mr={1}>
@@ -104,7 +104,8 @@ const classes = useStyles();
           <Alert severity="success">{checkInMessage} <a href="/dashboard">Click here</a> to go back to your DigiKey dashboard.</Alert>
         )}
         <Box mt={2}>
-          <TextField label="Your Public Key 🔐" className={classes.keyBlock} multiline rows={4} defaultValue={pgpKey} disabled={true} /><br/>
+          <Typography variant="h6">Your Public Key</Typography>
+          <TextField className={classes.keyBlock} multiline rows={4} defaultValue={pgpKey} disabled={true} /><br/>
           <Tooltip title="Your Public Key is your key to privacy. Your personal information is automatically encrypted with this key during check-in. Only you and the authorised party are able to access the information submitted.">
             <Box><Typography variant="caption" component="a"> What is this?</Typography></Box>
           </Tooltip>
