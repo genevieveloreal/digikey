@@ -160,6 +160,15 @@ function DashboardSection(props) {
                 </Typography>
               </CardContent>
             </Card>}
+           <Card>
+              <CardContent className={classes.cardContent}>
+                <Typography variant="h6" paragraph={true}>
+                  <strong>Contact Tracing Locations</strong>
+                </Typography>
+                <Button color="primary" variant="outlined" href="/contact-tracing">View Locations</Button>
+              </CardContent>
+            </Card>
+
           </Grid>
         </Grid>
       </Container>
