@@ -7,7 +7,7 @@ DigiKey believes that for all Australians to feel safe and connected, government
 
 [Click here to view live demo](https://www.bigsunday.com.au)
 
-[![Video Preview](https://i.imgur.com/cSZCWev.png)](https://www.youtube.com)
+[![Video Preview](https://i.imgur.com/cSZCWev.png)](https://www.youtube.com/watch?v=0uszfAS_df8)
 
 ## Running the project locally
 * Ensure you have node installed
