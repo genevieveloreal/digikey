@@ -109,6 +109,9 @@ app.get('/api/testing-locations/vic', express.json(), (req, res) => {
 
 app.use('/static', express.static(path.join(__dirname, './build/static')))
 
+app.get('/favicon.ico', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './build', 'favicon.ico'));
+});
 
 // All other GET requests not handled before will return our React app
 app.get('*', (req, res) => {

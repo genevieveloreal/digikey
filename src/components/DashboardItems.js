@@ -23,9 +23,7 @@ import { spacing } from '@material-ui/system';
 import { useAuth } from "./../util/auth.js";
 import { updateItem, deleteItem, useItemsByOwner } from "./../util/db.js";
 import { makeStyles } from "@material-ui/core/styles";
-import { DigiKeyContext } from "../pages/_app";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
+
 
 const useStyles = makeStyles((theme) => ({
   paperItems: {
@@ -173,7 +171,7 @@ function DashboardItems(props) {
             <strong>Check-In History</strong>
           </Typography>
           <Typography variant="body1">Review your previous check-in locations and data sharing</Typography><br/>
-          <Button color="primary" variant="outlined" href="/contact-tracing">Check-in History</Button>
+          <Button color="primary" variant="outlined" href="/my-data">Check-in History</Button>
         </CardContent>
       </Card>
       </Box>
