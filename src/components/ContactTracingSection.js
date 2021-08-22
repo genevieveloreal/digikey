@@ -132,6 +132,9 @@ function ContactTracingSection(props) {
           size={4}
           textAlign="center"
         />
+        <Box mb={4}>
+          <Button size="small" variant="outlined" href="/dashboard">&lt; Back to Dashboard</Button>
+        </Box>
         <Grid container={true} spacing={1}>
           <Grid item={true} xs={12} md={12}>
             <Card>

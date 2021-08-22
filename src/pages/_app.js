@@ -17,6 +17,7 @@ import { ThemeProvider } from "./../util/theme.js";
 import logo from "../images/logo-transparent.png";
 import logoNightmode from "../images/logo-transparent-nightmode.png";
 import ContactTracing from "./contact-tracing";
+import MyData from "./my-data";
 
 function App(props) {
   return (
@@ -41,6 +42,8 @@ function App(props) {
             <Route exact path="/dashboard" component={DashboardPage} />
 
             <Route exact path="/contact-tracing" component={ContactTracing} />
+
+            <Route exact path="/my-data" component={MyData} />
 
             <Route exact path="/checkin" component={CheckInPage} />
 
