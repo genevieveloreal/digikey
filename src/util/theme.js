@@ -16,7 +16,7 @@ const themeConfig = {
       type: "light",
       primary: {
         // Use hue from colors or hex
-        main: "#0A369D",
+        main: "#1d3e90",
         // Uncomment to specify light/dark
         // shades instead of automatically
         // calculating from above value.
@@ -24,7 +24,7 @@ const themeConfig = {
         //dark: "#115293",
       },
       secondary: {
-        main: colors.pink["500"],
+        main: "#94b2de",
       },
       tertiary: {
         main: "#4472CA"
