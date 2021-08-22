@@ -8,6 +8,7 @@ import govhackLogo from "../images/govhack.png";
 import infoSysLogo from "../images/infosys.png";
 import qldGovLogo from "../images/qldgovt.png";
 import vicGovLogo from "../images/vicgovt.png";
+import pernixLogo from "../images/pernix.png";
 
 function ClientsSection(props) {
   const items = [
@@ -30,6 +31,11 @@ function ClientsSection(props) {
       name: "InfoSys",
       image: infoSysLogo,
       width: "170px",
+    },
+    {
+      name: "Pernix",
+      image: pernixLogo,
+      width: "180px",
     },
   ];
 

@@ -89,7 +89,7 @@ function DashboardItems(props) {
   return (
     <>
       <Box mb={1}>
-         <Alert severity="error">You recently visited <strong>Bunnings Newmarket</strong> on <strong>21 August 2021 (11:05AM)</strong>. Please get tested at your nearest COVID-19 testing location.</Alert>
+         <Alert severity="error">You recently visited <strong>Bunnings Carseldine</strong> on <strong>21 August 2021 (11:05AM)</strong>. Please get tested at your nearest COVID-19 testing location.</Alert>
         <br />
         { props.locationState === "QLD" && status &&  <Alert severity="warning">COVID-19 has been detected in your area ({ lastLocation.Site }). Stay safe and if you have any symptoms, please get tested.</Alert> }
       </Box>

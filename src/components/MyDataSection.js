@@ -20,7 +20,7 @@ import {
 } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import CardContent from "@material-ui/core/CardContent";
-import { CheckCircle } from "@material-ui/icons";
+import { AddAlert, CheckCircle, Error } from "@material-ui/icons";
 import List from "@material-ui/core/List";
 
 const useStyles = makeStyles((theme) => ({
@@ -54,7 +54,7 @@ function MyDataSection(props) {
   const checkins = [
     {
       name: 'Bunnings Carseldine',
-      date: '20/07/2021',
+      date: '21/08/2021',
       dataShared: [
         'Full Name',
         'Phone'
@@ -72,7 +72,6 @@ function MyDataSection(props) {
         'Date of Birth'
       ],
       alerts: [
-        ''
       ]
     },
     {
@@ -85,9 +84,6 @@ function MyDataSection(props) {
         'Email',
         'Tax File Number'
       ],
-      alerts: [
-        ''
-      ]
     },
     {
       name: 'Department of Transport Chermside',
@@ -99,9 +95,6 @@ function MyDataSection(props) {
         'Email',
         'Drivers Licence'
       ],
-      alerts: [
-        ''
-      ]
     },
     {
       name: 'Officeworks Windsor',
@@ -109,9 +102,6 @@ function MyDataSection(props) {
       dataShared: [
         'Phone',
       ],
-      alerts: [
-        ''
-      ]
     },
 
   ]
@@ -152,11 +142,21 @@ function MyDataSection(props) {
                       { item.dataShared.map((item, x) => (
                         <ListItem key={x} dense button>
                           <ListItemIcon>
-                            <CheckCircle/>
+                            <CheckCircle />
                           </ListItemIcon>
                           <ListItemText primary={item}/>
                         </ListItem>
                       ))}
+                      </List>
+                      <List>
+                        { item.alerts && item.alerts.map((item, x) => (
+                          <ListItem key={x} dense button>
+                            <ListItemIcon>
+                              <Error/>
+                            </ListItemIcon>
+                            <ListItemText primary={item}/>
+                          </ListItem>
+                        ))}
                       </List>
                     </Typography>
 
